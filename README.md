@@ -16,7 +16,7 @@ Go 学习记录
 
 <p align="center">
     <a href="https://github.com/hakusai22/Go_Study/">
-    <img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Study/cover.png" alt="Logo" width="200" height="200">
+    <img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Study/cover.png" alt="Logo" width="300" height="200">
     </a>
     <h3 align="center">Go 学习记录</h3>
   <p align="center">
