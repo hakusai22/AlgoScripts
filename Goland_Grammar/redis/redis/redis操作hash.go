@@ -45,7 +45,7 @@ func Case_3() {
 	}
 	fmt.Printf("writeRedis02 suc：%v\n", writeRedis02)
 
-	//从redis读取数据 string[key-value]
+	//从redis读取数据 07_string[key-value]
 	//connRedis.Do()返回的readRedis01是interface{}数据类型 要转为string
 	//通过redis.String()方法将readRedis01转为string类型 (如果是多个字符串就用redis.Strings())
 	//读取user中key为name的value
@@ -96,7 +96,7 @@ func Case_4() {
 	}
 	fmt.Printf("writeRedis suc：%v\n", writeRedis)
 
-	//从redis读取数据 string[key-value]
+	//从redis读取数据 07_string[key-value]
 	//connRedis.Do()返回的readRedis01是interface{}数据类型 要转为string
 	//通过redis.String()方法将readRedis01转为string类型 (如果是多个字符串就用redis.Strings())
 	//一次性读取user中key为name的value 和key为age的value

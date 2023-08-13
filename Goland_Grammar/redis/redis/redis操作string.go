@@ -29,7 +29,7 @@ func Case_1() {
 		fmt.Printf("connRedisClose suc")
 	}()
 
-	//向redis写入数据 string[key-value]
+	//向redis写入数据 07_string[key-value]
 	writeRedis, writeRedisErr := connRedis.Do("set", "name", "go语言")
 	if writeRedisErr != nil {
 		fmt.Printf("writeRedisErr=%v\n", writeRedisErr)
@@ -37,7 +37,7 @@ func Case_1() {
 	}
 	fmt.Printf("writeRedis suc：%v\n", writeRedis)
 
-	//从redis读取数据 string[key-value]
+	//从redis读取数据 07_string[key-value]
 	//connRedis.Do()返回的readRedis是interface{}数据类型 要转为string
 	//通过redis.String()方法将readRedis转为string类型 (如果是多个字符串就用redis.Strings())
 	readRedis, readRedisErr := redis.String(connRedis.Do("get", "name"))
@@ -70,7 +70,7 @@ func Case_2() {
 		fmt.Printf("connRedisClose suc")
 	}()
 
-	//向redis写入数据 string[key-value][key-value]
+	//向redis写入数据 07_string[key-value][key-value]
 	writeRedis, writeRedisErr := connRedis.Do("mset", "name", "go语言", "address", "us")
 	if writeRedisErr != nil {
 		fmt.Printf("writeRedisErr=%v\n", writeRedisErr)
@@ -78,7 +78,7 @@ func Case_2() {
 	}
 	fmt.Printf("writeRedis suc：%v\n", writeRedis)
 
-	//从redis读取数据 string[key-value][key-value]
+	//从redis读取数据 07_string[key-value][key-value]
 	//connRedis.Do()返回的readRedis是interface{}数据类型 要转为string
 	//通过redis.String()方法将readRedis转为string类型 (如果是多个字符串就用redis.Strings())
 	readRedis, readRedisErr := redis.Strings(connRedis.Do("mget", "name", "address"))

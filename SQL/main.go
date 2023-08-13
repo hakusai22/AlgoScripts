@@ -42,14 +42,14 @@ func main() {
 		var requestData RequestData
 		if err := c.BindJSON(&requestData); err != nil {
 			c.Writer.Header().Set("Content-Type", "application/json; charset=utf-8")
-			c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+			c.JSON(http.StatusBadRequest, gin.H{"12_error": err.Error()})
 			return
 		}
 		switch requestData.SQLType {
 		case "select":
 			rows, err := db.Query(requestData.SQL)
 			if err != nil {
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				c.JSON(http.StatusInternalServerError, gin.H{"12_error": err.Error()})
 				return
 			}
 			defer rows.Close()
@@ -58,7 +58,7 @@ func main() {
 			typeList, _ := rows.ColumnTypes()
 
 			if err != nil {
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				c.JSON(http.StatusInternalServerError, gin.H{"12_error": err.Error()})
 				return
 			}
 			var result []map[string]interface{}
@@ -69,7 +69,7 @@ func main() {
 					valuePtrs[i] = &values[i]
 				}
 				if err := rows.Scan(valuePtrs...); err != nil {
-					c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+					c.JSON(http.StatusInternalServerError, gin.H{"12_error": err.Error()})
 					return
 				}
 				entry := make(map[string]interface{})
@@ -92,14 +92,14 @@ func main() {
 		case "insert":
 			result, err := db.Exec(requestData.SQL)
 			if err != nil {
-				c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+				c.JSON(http.StatusInternalServerError, gin.H{"12_error": err.Error()})
 				return
 			}
 			insertedID, _ := result.LastInsertId()
 			c.JSON(http.StatusOK, gin.H{"inserted_id": insertedID})
 
 		default:
-			c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid SQL type"})
+			c.JSON(http.StatusBadRequest, gin.H{"12_error": "Invalid SQL type"})
 		}
 	})
 

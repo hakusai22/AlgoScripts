@@ -20,7 +20,7 @@ redis基本使用：
 4.切换数据库[select i]
 
 redis使用细节：
-string：
+07_string：
 1.string是redis最基本得类型，一个key对应一个value。
 2.string类型是二进制安全的，除普通的字符串外，也可以存放图片等数据。
 3.redis中value最大是512M
