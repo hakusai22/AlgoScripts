@@ -1,4 +1,4 @@
-package A
+package main
 
 /*
    -*- coding: utf-8 -*-
@@ -37,4 +37,8 @@ func max(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func main() {
+	maxSum([]int{51, 71, 17, 24, 42})
 }

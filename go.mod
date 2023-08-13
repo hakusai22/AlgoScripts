@@ -1,6 +1,6 @@
 module SQL_Operation
 
-go 1.18
+go 1.21
 
 require (
 	github.com/emirpasic/gods v1.18.1

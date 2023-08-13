@@ -1,4 +1,4 @@
-package C
+package main
 
 import (
 	redblacktree "github.com/emirpasic/gods/trees/redblacktree"
@@ -32,9 +32,7 @@ func abs(a int) int {
 	}
 	return -a
 }
-func min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
+
+func main() {
+	minAbsoluteDifference([]int{4, 3, 2, 4}, 2)
 }
