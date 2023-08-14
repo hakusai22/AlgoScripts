@@ -1,4 +1,4 @@
-module SQL_Operation
+module Go_Study
 
 go 1.21
 
