@@ -29,7 +29,7 @@ func Case_3() {
 		fmt.Printf("connRedisClose suc")
 	}()
 
-	//向redis写入数据 hash[[key-value][key-value]]
+	//向redis写入数据 hash_index[[key-value][key-value]]
 	//写入user[name-go语言]
 	writeRedis01, writeRedisErr01 := connRedis.Do("hset", "user", "name", "go语言")
 	if writeRedisErr01 != nil {
@@ -87,7 +87,7 @@ func Case_4() {
 		fmt.Printf("connRedisClose suc\n")
 	}()
 
-	//向redis写入数据 hash[[key-value][key-value]]
+	//向redis写入数据 hash_index[[key-value][key-value]]
 	//写入user[[name-go语言][age-18]]
 	writeRedis, writeRedisErr := connRedis.Do("hmset", "user", "name", "golang", "age", 22)
 	if writeRedisErr != nil {

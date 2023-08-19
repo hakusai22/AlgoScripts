@@ -30,7 +30,7 @@ redis使用细节：
 7.mset [mset key01 value01 key02 value02]  (添加多个string键值对)
 8.mget [mget key01 key02]  (查看多个string键值对)
 
-hash
+hash_index
 redis hash是一个键值对集合，是一个string类型的field和value的映射表。
 1.hset [hset user01 name golang] (给user01存储一个key-valuse key是name value是golang) (有就修改 没有就添加)
 2.hget [hget user01 name] (查看user01的key为name的value)
