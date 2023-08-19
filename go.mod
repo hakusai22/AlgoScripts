@@ -6,6 +6,7 @@ require (
 	github.com/emirpasic/gods v1.18.1
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-sql-driver/mysql v1.7.1
+	github.com/gorilla/websocket v1.5.0
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/roylee0704/gron v0.0.0-20160621042432-e78485adab46
 	go.uber.org/zap v1.25.0
