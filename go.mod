@@ -4,6 +4,7 @@ go 1.21
 
 require (
 	github.com/emirpasic/gods v1.18.1
+	github.com/garyburd/redigo v1.6.4
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/gorilla/websocket v1.5.0

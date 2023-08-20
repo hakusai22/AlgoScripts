@@ -8,14 +8,6 @@ import "encoding/json"
    @Time    : 2023/08/20 00:06
 */
 
-/*
-@ Time : 2021/1/8 10:04
-@ Author : qyz
-@ File : response
-@ Software: GoLand
-@ Description: Gin 响应数据的封装
-*/
-
 type Response struct {
 	Code int         `json:"code"` // 错误码
 	Msg  string      `json:"msg"`  // 错误描述

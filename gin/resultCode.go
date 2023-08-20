@@ -6,14 +6,6 @@ package gin
    @Time    : 2023/08/20 00:07
 */
 
-/*
-@ Time : 2021/1/8 10:04
-@ Author : qyz
-@ File : code
-@ Software: GoLand
-@ Description: Gin 响应数据的响应码
-*/
-
 // 错误码规则:
 // (1) 错误码需为 > 0 的数;
 //
