@@ -1,4 +1,4 @@
-package 计数类DP
+package count_dp
 
 import "fmt"
 

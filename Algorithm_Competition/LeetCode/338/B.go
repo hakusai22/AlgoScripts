@@ -1,4 +1,4 @@
-package 第338场周赛
+package _38
 
 /*
    -*- coding: utf-8 -*-

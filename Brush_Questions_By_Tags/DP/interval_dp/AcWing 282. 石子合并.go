@@ -1,4 +1,4 @@
-package 区间DP
+package interval_dp
 
 import (
 	"bufio"

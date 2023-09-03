@@ -1,4 +1,4 @@
-package 二叉树
+package binaryTree
 
 /*
    -*- coding: utf-8 -*-
