@@ -1,7 +1,30 @@
-package rune
+package main
 
 /*
    -*- coding: utf-8 -*-
    @Author  : hakusai22
    @Time    : 2023/08/28 17:06
 */
+
+import "fmt"
+
+func main() {
+	fmt.Println("go-algorithm", len("go-algorithm"))
+	fmt.Println("go算法", len("go算法"))
+
+	var str = "go算法"
+	fmt.Println(str[:4])
+	for k, v := range str {
+		fmt.Printf("v type: %T\n", v)
+		fmt.Println(v, k)
+	}
+
+	fmt.Println([]rune(str))
+	fmt.Println([]byte(str))
+
+	fmt.Println([]rune(str))
+	fmt.Println([]byte(str))
+
+	res := []rune(str)
+	fmt.Println(string(res[:4]))
+}
