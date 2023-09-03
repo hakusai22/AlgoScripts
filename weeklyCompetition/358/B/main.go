@@ -11,19 +11,45 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func doubleIt(head *ListNode) *ListNode {
-	c := f(head)
-	if c == 1 {
-		return &ListNode{Val: 1, Next: head}
+func reverseList(head *ListNode) *ListNode {
+	var prev *ListNode
+	current := head
+
+	for current != nil {
+		next := current.Next
+		current.Next = prev
+		prev = current
+		current = next
 	}
-	return head
+
+	return prev
 }
-func f(head *ListNode) int {
-	if head == nil {
-		return 0
+
+func doubleIt(head *ListNode) *ListNode {
+	// 先将链表翻转
+	reversed := reverseList(head)
+
+	// 对翻转后的链表进行翻倍操作
+	carry := 0
+	current := reversed
+	dummy := &ListNode{}
+	tail := dummy
+
+	for current != nil {
+		newVal := current.Val*2 + carry
+		carry = newVal / 10
+		tail.Next = &ListNode{Val: newVal % 10}
+		tail = tail.Next
+		current = current.Next
 	}
-	c := f(head.Next)
-	head.Val = 2*head.Val + c
-	head.Val, c = head.Val%10, head.Val/10
-	return c
+
+	// 处理最后的进位
+	for carry > 0 {
+		tail.Next = &ListNode{Val: carry % 10}
+		tail = tail.Next
+		carry /= 10
+	}
+
+	// 最后将链表再次翻转回来
+	return reverseList(dummy.Next)
 }
