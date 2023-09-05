@@ -108,3 +108,7 @@ func test6() {
 	res = MyFunc(3, 5)
 	fmt.Println("res=", res)
 }
+
+func swap(x, y string) (string, string) {
+	return y, x
+}
