@@ -2,41 +2,39 @@ package main
 
 import (
 	"fmt"
-	"time"
 )
 
-/*
-   -*- coding: utf-8 -*-
-   @Author  : hakusai22
-   @Time    : 2023/09/03 20:26
-*/
-
 func main() {
-	//1
-	queue := make(chan string, 2)
-	queue <- "one"
-	queue <- "two"
-	close(queue)
+	c := make(chan int)
 
-	for elem := range queue {
-		fmt.Println(elem)
-	}
-
-	//2
-	receive()
-}
-
-func receive() {
-	ch := make(chan int, 100)
-	for i := 0; i < 10; i++ {
-		ch <- i
-	}
-	// ch <- 0
-	close(ch) // !!!!!!
+	go func() {
+		for i := 0; i < 5; i++ {
+			c <- i
+		}
+		close(c)
+	}()
 
 	for {
-		i, ok := <-ch
-		fmt.Println(i, ok)
-		time.Sleep(time.Second)
+		//ok为true说明channel没有关闭，为false说明管道已经关闭
+		if data, ok := <-c; ok {
+			fmt.Println(data)
+		} else {
+			break
+		}
 	}
+
+	fmt.Println("Finished")
+
+	c1 := make(chan int)
+
+	go func() {
+		for i := 0; i < 5; i++ {
+			c1 <- i
+		}
+	}()
+
+	for data := range c {
+		fmt.Println(data)
+	}
+	fmt.Println("Finished")
 }
