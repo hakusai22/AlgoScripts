@@ -12,7 +12,7 @@ INF = int(1e20)
 INFMIN = float('-inf')
 INFMAX = float('inf')
 '''
-    @functools.lru_cache(None) memory_search
+    @functools.lru_cache(None) Mmemory_Search
     字符串切片 str[::-1] # 字符串翻转  str[0:1]  左闭右开
     列表 l.append(1) l.extend([1,2,3]) l.insert(1,3) l.remove(1),(del list[0]) ,l.pop() ,l.pop(0), l.sort(reverse=True) ,l.reverse() 列表操作 
     ASCII ord('a'), chr(98), /ASCII字符数值/数值ASCII字符

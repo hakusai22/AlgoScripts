@@ -1,4 +1,4 @@
-package interval_dp
+package Interval_DP
 
 import (
 	"bufio"
