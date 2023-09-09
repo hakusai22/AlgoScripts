@@ -12,7 +12,7 @@ INF = int(1e20)
 INFMIN = float('-inf')
 INFMAX = float('inf')
 '''
-    @functools.lru_cache(None) Mmemory_Search
+    @functools.lru_cache(None) Memory_Search
     字符串切片 str[::-1] # 字符串翻转  str[0:1]  左闭右开
     列表 l.append(1) l.extend([1,2,3]) l.insert(1,3) l.remove(1),(del list[0]) ,l.pop() ,l.pop(0), l.sort(reverse=True) ,l.reverse() 列表操作 
     ASCII ord('a'), chr(98), /ASCII字符数值/数值ASCII字符
@@ -23,7 +23,7 @@ INFMAX = float('inf')
     字典 m.keys(), m.values(), m.items() 字段key的列表/value的列表/ key,value值对
     eval("1,2,3") 字符串转换成列表、元组或者字典/
     公式 gcd(a,b), lcm(a,b), pow(a,b), sqrt(x), ceil(x), floor(x) /最大公约数/最小公倍数/ x的y次方/ x的平方根 /向上/向下
-    heap heapfiy([]),heappush(1), heappop(),nlargest(3,list),nsmallest(3,list),heapreplace(list,4) list转为最小堆/添加元素/弹出最小值并返回/返回堆最大的3个元素/返回堆中最小的3个元素/弹出堆顶元素,压入4
+    Heap heapfiy([]),heappush(1), heappop(),nlargest(3,list),nsmallest(3,list),heapreplace(list,4) list转为最小堆/添加元素/弹出最小值并返回/返回堆最大的3个元素/返回堆中最小的3个元素/弹出堆顶元素,压入4
     双端队列 d.append(1), appendleft(1), d.pop(), d.popleft(), d.clear(),d.count(1), d.reverse() /队尾添加/队头添加
     Stack(列表) s.append(1) s.pop() /压栈/弹出栈顶元素
     

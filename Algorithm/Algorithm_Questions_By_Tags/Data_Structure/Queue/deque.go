@@ -1,4 +1,4 @@
-package Algorithm_Template
+package Queue
 
 /*
 	双端队列 使用两个slice

@@ -24,10 +24,10 @@ uniform(x, y), pow(x, y)# 随机生成下一个实数，它在[x,y]范围内/ x*
 
 '''
 1.heapify(list):将序列list改变成heap结构
-2.heappush(heap, item):向序列heap中插入一个item元素
-3.heappop(heap):pop出heap堆中的最小值
-4.heapreplace(heap, item):先pop出最小值，再向heap中添加item元素
-5.heappushpop(heap, item): 与heapreplace方向相反
+2.heappush(Heap, item):向序列heap中插入一个item元素
+3.heappop(Heap):pop出heap堆中的最小值
+4.heapreplace(Heap, item):先pop出最小值，再向heap中添加item元素
+5.heappushpop(Heap, item): 与heapreplace方向相反
 6.nlargest(n, iterable, key=None):返回heap的前n个最大的元素的list
 7.nsmallest(n, iterable, key=None):返回heap的前n个最小的元素的list
 '''
