@@ -10,7 +10,7 @@ redis环境配置：
 
 /**
 redis介绍：
-1.redis支持的五大数据：String(字符串)、Hash(哈希表)、List(列表)、Set(集合)、zset(sorted set:有序集合)
+1.redis支持的五大数据：String(字符串)、Hash(hashTable)、List(列表)、Set(集合)、zset(sorted set:有序集合)
 2.redis有16[0-15号]个默认数据库，初始默认0号。
 
 redis基本使用：
