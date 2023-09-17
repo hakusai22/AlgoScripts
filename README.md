@@ -1,6 +1,6 @@
 # Go_Python_Study
 
-Go 学习记录
+Go_Python_Study 学习记录
 
 <!-- PROJECT SHIELDS -->
 
@@ -8,7 +8,7 @@ Go 学习记录
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
-![GitHub top language](https://img.shields.io/github/languages/top/hakusai22/Go_Study?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/hakusai22/Go_Python_Study?style=for-the-badge)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -16,45 +16,49 @@ Go 学习记录
 
 
 <p align="center">
-    <a href="https://github.com/hakusai22/Go_Study/">
+    <a href="https://github.com/hakusai22/Go_Python_Study/">
     </a>
-    <h3 align="center">Go 学习记录</h3>
+    <h3 align="center">Go_Python 算法学习笔记 🔞</h3>
   <p align="center">
     ·
-    <a href="https://github.com/hakusai22/Go_Study/issues">报告Bug</a>
+    <a href="https://github.com/hakusai22/Go_Python_Study/issues">报告Bug</a>
     ·
-    <a href="https://github.com/hakusai22/Go_Study/issues">提出新特性</a>
+    <a href="https://github.com/hakusai22/Go_Python_Study/issues">提出新特性</a>
   </p>
+
+
+<img src="https://fastly.jsdelivr.net/gh/hakusai22/Algorithm-study/img.png"/>
+
+![code_language.png](code_language.png)
 
 <!-- links -->
 
-[your-project-path]:hakusai22/Go_Study
+[your-project-path]:hakusai22/Go_Python_Study
 
-[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/Go_Study.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/Go_Python_Study.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/hakusai22/Go_Study/graphs/contributors
+[contributors-url]: https://github.com/hakusai22/Go_Python_Study/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/hakusai22/Go_Study.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/hakusai22/Go_Python_Study.svg?style=for-the-badge
 
-[forks-url]: https://github.com/hakusai22/Go_Study/network/members
+[forks-url]: https://github.com/hakusai22/Go_Python_Study/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/hakusai22/Go_Study.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/hakusai22/Go_Python_Study.svg?style=for-the-badge
 
-[stars-url]: https://github.com/hakusai22/Go_Study/stargazers
+[stars-url]: https://github.com/hakusai22/Go_Python_Study/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/hakusai22/Go_Study.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg?style=for-the-badge
 
-[issues-url]: https://img.shields.io/github/issues/hakusai22/Go_Study.svg
+[issues-url]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg
 
-[license-shield]: https://img.shields.io/github/license/hakusai22/Go_Study.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/hakusai22/Go_Python_Study.svg?style=for-the-badge
 
-[license-url]: https://github.com/hakusai22/Go_Study/blob/master/LICENSE
+[license-url]: https://github.com/hakusai22/Go_Python_Study/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 
 [linkedin-url]: https://linkedin.com/in/xxxx
 
-![img.png](https://fastly.jsdelivr.net/gh/hakusai22/Go_Study/image/img3.png)
 
 ## 目录
 
@@ -128,7 +132,7 @@ AR="ar"
 CC="clang"
 CXX="clang++"
 CGO_ENABLED="1"
-GOMOD="/Users/yinpeng/GoWorkSpace/Go_Study/go.mod"
+GOMOD="/Users/yinpeng/GoWorkSpace/Go_Python_Study/go.mod"
 GOWORK=""
 CGO_CFLAGS="-g -O2"
 CGO_CPPFLAGS=""
