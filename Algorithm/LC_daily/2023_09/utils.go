@@ -44,3 +44,10 @@ func readArray(reader *bufio.Reader, sep string) []int {
 	}
 	return nums
 }
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
