@@ -27,7 +27,7 @@ Go_Python_Study 学习记录
   </p>
 
 
-<img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study-study/al.png"/>
+<img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study/al.png"/>
 <img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study/code_language.png"/>
 
 <!-- links -->
