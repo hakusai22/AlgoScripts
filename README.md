@@ -1,4 +1,4 @@
-# Go_Study
+# Go_Python_Study
 
 Go 学习记录
 
