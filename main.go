@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 /*
    -*- coding: utf-8 -*-
@@ -10,4 +13,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("佛祖保佑,永无BUG")
+	fmt.Println(math.MaxInt)
+	fmt.Println(math.MaxInt >> 1)
+	fmt.Println(int(1e9))
 }
