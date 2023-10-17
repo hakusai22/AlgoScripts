@@ -113,8 +113,8 @@ go mod why	查看为什么需要依赖某模块
 - [位运算](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md)
 - [哈希表](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
 - [递归](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
-- [贪心][]
-- [排序][]
+- [贪心][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy]
+- [排序][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting]
 - [字符串](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings)
 - [双指针算法](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer)
 - [滑动窗口](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window)
@@ -128,9 +128,9 @@ go mod why	查看为什么需要依赖某模块
 - [前缀和&&差分数组](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md)
 - [字典树](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Trie_Tree)
 - [并查集](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Union_Find/并查集.md)
-- [树状数组](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md)
+- [树状数组](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Fenwick_Tree)
 - [线段树](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md)
-- [区间操作]()
+- [区间操作](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Interval_Merging)
 
 
 #### 动态规划
