@@ -58,41 +58,66 @@ Go_Python_Study 学习记录
 
 [linkedin-url]: https://linkedin.com/in/xxxx
 
-## 项目目录
-- [Algorithm](#Algorithm)
-  - [Python3/Go算法模版总结](#算法模版总结)
-- [Goland_Grammar](#Goland_Grammar)
-  - [Go语法](#Go语法)
-- [Middleware](#Middleware)
-  - [Go中间件](#Go中间件)
-- [Python3_Grammar](#Python3_Grammar)
-  - [Python3语法](#Python3语法)
 
-## 目录
+### 分类型刷题
 
-- [上手指南](#上手指南)
-    - [开发前的配置要求](#开发前的配置要求)
-    - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [项目特点](#项目特点)
-- [功能介绍](#功能介绍)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-    - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
-- [鸣谢](#鸣谢)
-- [成果演示](#成果演示)
+#### 基础数据结果
+- [链表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List)
+- [位运算 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md)
+- [哈希表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
+- [递归 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Recursio](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Recursion)
+- [贪心 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy)
+- [排序 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting)
+- [字符串 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings)
+- [双指针算法 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer)
+- [滑动窗口 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window)
+- [栈&&单调栈 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack)
+- [队列&&单调队列 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue)
+- [大根堆&&小根堆 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Heap/堆.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Heap/堆.md)
+- [二叉树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Tree](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Tree)
+- [二分搜索 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Search/二分查找.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Search/二分查找.md)
+- [前缀和&&差分数组 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md)
+- [字典树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Trie_Tree)
+- [并查集 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Union_Find/并查集.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Union_Find/并查集.md)
+- [树状数组 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Fenwick_Tree](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Fenwick_Tree)
+- [线段树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md)
+- [区间操作 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Interval_Merging](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Interval_Merging)
 
-### 上手指南
 
-###### 开发前的配置要求
+#### 动态规划
+- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search)
+- [线性DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Linear_DP)
+- [背包DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Backpack_DP)
+- [状压DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/State_Compression_DP)
+- [区间DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Interval_DP)
+- [计数DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Count_DP)
+- [树形DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Tree_Shape_DP)
 
-###### **安装步骤**
+#### 搜索
+- [DFS]()
+- [BFS]()
+- [双向搜索]()
+- [回溯]()
+- [A*]()
 
-### 项目特点
+#### 图论
+- [DFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/DFS](Algorithm/Algorithm_Questions_By_Tags/Graph/DFS)
+- [BFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/BFS](Algorithm/Algorithm_Questions_By_Tags/Graph/BFS)
+- [拓扑排序 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting](Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting)
+- [最小生成树]
+  - [Kruskal算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal](Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal)
+  - [Prim算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Prim](Algorithm/Algorithm_Questions_By_Tags/Graph/Prim)
+- [最短路]
+  - [Floyd算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd](Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd)
+  - [Bellman–Ford算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford](Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford)
+  - [Dijkstra算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra](Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra)
+
+#### 数学
+- [约数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor)
+- [质数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Prime_Number)
+- [快速幂 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Fast_Exponentiation)
+- [组合数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Combinations)
+- [容斥原理 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
 
 
 ```bash
@@ -105,65 +130,3 @@ go mod vendor	导出项目所有的依赖到vendor目录
 go mod verify	校验一个模块是否被篡改过
 go mod why	查看为什么需要依赖某模块
 ```
-
-### 分类型刷题
-
-#### 基础数据结果
-- [链表](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List)
-- [位运算](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md)
-- [哈希表](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
-- [递归](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Recursion)
-- [贪心][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy]
-- [排序][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting]
-- [字符串](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings)
-- [双指针算法](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer)
-- [滑动窗口](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window)
-- [栈&&单调栈](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack)
-- [队列&&单调队列](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue)
-- [大根堆&&小根堆](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Heap/堆.md)
-- [二叉树](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Tree)
-- [贪心算法](https://github.com/hakusai22/Go_Python_Study#贪心算法)
-- [动态规划](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming)
-- [二分搜索](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Search/二分查找.md)
-- [前缀和&&差分数组](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md)
-- [字典树](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Trie_Tree)
-- [并查集](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Union_Find/并查集.md)
-- [树状数组](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Fenwick_Tree)
-- [线段树](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md)
-- [区间操作](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Interval_Merging)
-
-
-#### 动态规划
-- [记忆化搜索](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search)
-- [线性DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Linear_DP)
-- [背包DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Backpack_DP)
-- [状压DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/State_Compression_DP)
-- [区间DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Interval_DP)
-- [计数DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Count_DP)
-- [树形DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Tree_Shape_DP)
-
-#### 搜索
-- [DFS]()
-- [BFS]()
-- [双向搜索]()
-- [回溯]()
-- [A*]()
-
-#### 图论
-- [DFS图论](Algorithm/Algorithm_Questions_By_Tags/Graph/DFS)
-- [BFS图论](Algorithm/Algorithm_Questions_By_Tags/Graph/BFS)
-- [拓扑排序](Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting)
-- [最小生成树]
-  - [Kruskal 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal)
-  - [Prim 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Prim)
-- [最短路]
-  - [Floyd 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd)
-  - [Bellman–Ford 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford)
-  - [Dijkstra 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra)
-
-#### 数学
-- [约数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor)
-- [质数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Prime_Number)
-- [快速幂](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Fast_Exponentiation)
-- [组合数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Combinations)
-- [容斥原理](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
