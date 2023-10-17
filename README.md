@@ -112,7 +112,7 @@ go mod why	查看为什么需要依赖某模块
 - [链表](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List)
 - [位运算](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md)
 - [哈希表](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
-- [递归](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table)
+- [递归](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Recursion)
 - [贪心][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy]
 - [排序][Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting]
 - [字符串](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings)
@@ -134,13 +134,13 @@ go mod why	查看为什么需要依赖某模块
 
 
 #### 动态规划
-- [记忆化搜索]()
-- [线性DP]()
-- [背包DP]()
-- [状压DP]()
-- [数位DP]()
-- [计数DP]()
-- [树形DP]()
+- [记忆化搜索](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search)
+- [线性DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Linear_DP)
+- [背包DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Backpack_DP)
+- [状压DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/State_Compression_DP)
+- [区间DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Interval_DP)
+- [计数DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Count_DP)
+- [树形DP](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Tree_Shape_DP)
 
 #### 搜索
 - [DFS]()
@@ -150,20 +150,20 @@ go mod why	查看为什么需要依赖某模块
 - [A*]()
 
 #### 图论
-- [DFS图论]()
-- [BFS图论]()
-- [拓扑排序]()
-- [最小生成树]()
-  - [Kruskal 算法]()
-  - [Prim 算法]()
+- [DFS图论](Algorithm/Algorithm_Questions_By_Tags/Graph/DFS)
+- [BFS图论](Algorithm/Algorithm_Questions_By_Tags/Graph/BFS)
+- [拓扑排序](Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting)
+- [最小生成树]
+  - [Kruskal 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal)
+  - [Prim 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Prim)
 - [最短路]
-  - [Floyd 算法]()
-  - [Bellman–Ford 算法]()
-  - [Dijkstra 算法]()
+  - [Floyd 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd)
+  - [Bellman–Ford 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford)
+  - [Dijkstra 算法](Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra)
 
 #### 数学
-- [约数]()
-- [质数]()
-- [快速幂]()
-- [组合数]()
-- [容斥原理]()
+- [约数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor)
+- [质数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Prime_Number)
+- [快速幂](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Fast_Exponentiation)
+- [组合数](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Combinations)
+- [容斥原理](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
