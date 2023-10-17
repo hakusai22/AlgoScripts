@@ -61,32 +61,18 @@ def sep():
     a = input().rstrip('\n')
     return a
 
-# --idea
+# --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/17 14:55
-
-def check(mid):
-    pass
-
-def bserch_1(l: int, r: int):
-    while l < r:
-        mid = l + r >> 1
-        if check(mid):
-            r = mid
-        else:
-            l = mid + 1
-    return l
-
-def bserch_2(l: int, r: int):
-    while l < r:
-        mid = l + r + 1 >> 1
-        if check(mid):
-            l = mid
-        else:
-            r = mid - 1
-    return l
+# @Time    : 2023/10/17 15:35
 
 if __name__ == '__main__':
-    arr=[]
-    bisect_left()
+    arr = [1, 2, 3, 3, 3, 6, 7, 8]
+    # bisect_left函数返回排序数组中值等于k的最左索引，如果没有，就返回插入后其索引
+    print(bisect_left(arr, 3))  # 2
+    # bis_right函数返回排序数组中值等于k的最右索引+1，如果没有，就返回插入后其索引
+    print(bisect_right(arr, 3))  # 5
+    # bisect()和bisect_right()等同
+    print(bisect(arr, 3))  # 5
+    # bisect_left(a, x, lo=0, hi=len(a))
+    print(bisect_left(arr, 8, 0, 4))  # 2
