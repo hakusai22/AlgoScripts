@@ -61,6 +61,13 @@ Go_Python_Study 学习记录
 
 ### 分类型刷题
 
+#### 算法复杂度讲解 https://zhuanlan.zhihu.com/p/248284657
+- logN 计算
+```python
+import math
+print(math.log2(10 ** 5)) # 16.609640474436812
+```
+
 #### 基础数据结果
 - [链表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List)
 - [位运算 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md)
