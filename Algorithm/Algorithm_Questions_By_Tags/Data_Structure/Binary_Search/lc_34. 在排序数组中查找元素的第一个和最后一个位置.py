@@ -23,30 +23,6 @@ uniform(x, y), pow(x, y)# 随机生成下一个实数，它在[x,y]范围内/ x*
 集合推倒式 {i ** 2 for i in (1, 2, 3)}  不可索引,不可切片,不可重复元素
 '''
 
-def I():
-    return input()
-
-def II():
-    return int(input())
-
-def FI():
-    return float(input())
-
-def MII():
-    return map(int, input().split())
-
-def MFI():
-    return map(float, input().split())
-
-def LI():
-    return list(input().split())
-
-def LMII():
-    return list(map(int, input().split()))
-
-def LMFI():
-    return list(map(float, input().split()))
-
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -55,44 +31,43 @@ class TreeNode:
         self.right = right
 
 # -*- coding: utf-8 -*-
-# @Author  : zero
+# @Author  : hakusai
 # @Time    : 2022/11/22 21:22
-# https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/
-
 
 class Solution:
     def searchRange(self, arr: List[int], target: int) -> List[int]:
-
-        # if len(arr) == 0:
-        #     return [-1, -1]
-        # # 搜索出左端点的下标  (绿色区域的左边界值)
-        # # 区间[l, r]被划分成 [l, mid] 和 [mid+1, r]时使用
-        # # mid归于左边, r = mid, mid选择 不 +1
-        # l, r = 0, len(arr) - 1
-        # while l < r:
-        #     mid = (l + r) // 2
-        #     if arr[mid] >= target:
-        #         r = mid
-        #     else:
-        #         l = mid + 1
-        # if arr[l] != target:
-        #     return [-1, -1]
-        # left = l
-        #
-        # # 搜索出右端点的下标 (红色区域的右边界值)
-        # # 区间[l, r]被划分成 [l, mid-1] 和 [mid, r]时使用
-        # # mid归于右边, l = mid, mid选择 +1
-        # l, r = 0, len(arr) - 1
-        # while l < r:
-        #     mid = (l + r + 1) >> 1
-        #     if arr[mid] <= target:
-        #         l = mid
-        #     else:
-        #         r = mid - 1
-        # return [left, l]
-
-        i = bisect_left(arr, target)
-        if not (i < len(arr) and arr[i] == target):
+        # 模板1就是在满足check()的区间内找到左边界
+        if len(arr) == 0:
             return [-1, -1]
+        # 搜索出左端点的下标
+        # 区间[l, r]被划分成 [l, mid] 和 [mid+1, r]时使用
+        # mid归于左边, r = mid, mid选择 不 +1
+        l, r = 0, len(arr) - 1
+        while l < r:
+            mid = (l + r) // 2
+            if arr[mid] >= target:
+                r = mid
+            else:
+                l = mid + 1
+        if arr[l] != target:
+            return [-1, -1]
+        left = l
 
-        return [i, bisect_right(arr, target) - 1]
+        # 模板2在满足check()的区间内找到右边界
+        # 搜索出右端点的下标
+        # 区间[l, r]被划分成 [l, mid-1] 和 [mid, r]时使用
+        # mid归于右边, l = mid, mid选择 +1
+        l, r = 0, len(arr) - 1
+        while l < r:
+            mid = (l + r + 1) >> 1
+            if arr[mid] <= target:
+                l = mid
+            else:
+                r = mid - 1
+        return [left, l]
+
+        # i = bisect_left(arr, target)
+        # if not (i < len(arr) and arr[i] == target):
+        #     return [-1, -1]
+        #
+        # return [i, bisect_right(arr, target) - 1]
