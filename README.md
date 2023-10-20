@@ -59,6 +59,8 @@ Go_Python_Study 学习记录
 [linkedin-url]: https://linkedin.com/in/xxxx
 
 
+[Python3 刷题总结](./Python3_README.md)
+
 ### 分类型刷题
 
 #### 算法复杂度讲解 https://zhuanlan.zhihu.com/p/248284657
@@ -67,6 +69,7 @@ Go_Python_Study 学习记录
 import math
 print(math.log2(10 ** 5)) # 16.609640474436812
 ```
+
 
 #### 基础数据结果
 - [链表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List)
