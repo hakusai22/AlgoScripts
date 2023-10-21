@@ -22,6 +22,17 @@ direc8 = [(1, 0), (0, 1), (-1, 0), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1)]
 ALPS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alps = 'abcdefghijklmnopqrstuvwxyz'
 
+'''
+gcd(), ord(), chr(), lower(), upper() 最大公约数/ASCII字符数值/数值ASCII字符/小写/大写
+startswith(s), endswith(s), find(), index(), count(s)  字符串是否以s开始的/字符串是否以s结尾的/查找返回的是索引/获取索引
+isalpha(), isdigit(), space(),join()  判断是否全为字符/判断是否全为数字/判断是否为空格/拼接
+eval() 字符串转换成列表、元组或者字典/
+uniform(x, y), pow(x, y)# 随机生成下一个实数，它在[x,y]范围内/ x**y 运算后的值。
+字典推倒式 {key: len(key) for key in list}
+列表推倒式 [i for i in range(100) if i % 3 == 0] 可切片,可索引,可重复
+集合推倒式 {i ** 2 for i in (1, 2, 3)}  不可索引,不可切片,不可重复元素
+'''
+
 # 数值和字母进行转换 ord()函数是把字符转换成ASCII码 chr()函数是把ASCII码转换成字符
 def alp(i):
     return chr(ord('a') + i % 26)  # i=0->'a', i=25->'z'
@@ -64,13 +75,7 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/17 16:20
-
-if __name__ == '__main__':
-    arr1 = [1, 2, 3, 4, 5]
-    arr2 = [3, 4, 5, 6, 7]
-    print(set(arr1) & set(arr2))
-    print(set(arr1) | set(arr2))
-
-    for s in range(1 << 100):
-        print(s)
+# @Time    : 2023/10/21 14:32
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        return bin(int(a, 2) + int(b, 2))[2:]
