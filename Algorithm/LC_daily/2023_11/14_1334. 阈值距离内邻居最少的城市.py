@@ -72,16 +72,32 @@ def sep():
     a = input().rstrip('\n')
     return a
 
-# --idea 
+# --idea
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 00:19
+# @Time    : 2023/11/14 22:58
 
 class Solution:
-    def tupleSameProduct(self, nums: List[int]) -> int:
-        cnt = defaultdict(int)
-        for i in range(1, len(nums)):
-            for j in range(i):
-                x = nums[i] * nums[j]
-                cnt[x] += 1
-        return sum(v * (v - 1) // 2 for v in cnt.values()) << 3
+    def findTheCity(self, n: int, edges: List[List[int]], distanceThreshold: int) -> int:
+        w = [[inf] * n for _ in range(n)]
+        for x, y, wt in edges:
+            w[x][y] = w[y][x] = wt
+
+        @cache
+        def dfs(k, i, j):
+            if k < 0:
+                return w[i][j]
+            return min(dfs(k - 1, i, j), dfs(k - 1, i, k) + dfs(k - 1, k, j))
+
+        ans = 0
+        min_cnt = inf
+        for i in range(n):
+            cnt = 0
+            for j in range(n):
+                if j != i and dfs(n - 1, i, j) <= distanceThreshold:
+                    cnt += 1
+            if cnt <= min_cnt:
+                min_cnt = cnt
+                ans = i
+
+        return ans
