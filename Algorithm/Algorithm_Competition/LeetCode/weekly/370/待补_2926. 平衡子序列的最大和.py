@@ -75,38 +75,4 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/11/05 08:51
-
-from typing import List
-
-class Solution:
-    def maxBalancedSubsequenceSum(self, nums: List[int]) -> int:
-        dec_seq = [float('-inf')]
-        max_sums = [0]
-        max_sum = float('-inf')
-        for i, num in enumerate(nums):
-            balance_factor = num - i
-            idx = bisect_right(dec_seq, balance_factor)
-            if idx > 0:
-                max_sum = max(max_sum, max_sums[idx - 1] + num)
-            max_sum = max(max_sum, num)
-
-            idx = bisect_left(dec_seq, balance_factor)
-            if idx == len(dec_seq):
-                dec_seq.append(balance_factor)
-                max_sums.append(max_sum)
-            else:
-                if max_sum > max_sums[idx]:
-                    dec_seq[idx] = balance_factor
-                    max_sums[idx] = max_sum
-
-        return max_sum
-
-if __name__ == '__main__':
-    # Example usage:
-    sol = Solution()
-    print(sol.maxBalancedSubsequenceSum([3, 3, 5, 6]))  # Output: 14
-    print(sol.maxBalancedSubsequenceSum([5, -1, -3, 8]))  # Output: 13
-    print(sol.maxBalancedSubsequenceSum([-2, -1]))  # Output: -1
-    print(sol.maxBalancedSubsequenceSum([7, 2]))  # Output: -1
-    print(sol.maxBalancedSubsequenceSum([-4, 8, 9, 2]))
+# @Time    : 2023/11/20 22:24

@@ -76,4 +76,21 @@ def sep():
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
 # @Time    : 2023/11/05 08:51
+class Solution:
+    def maximumScoreAfterOperations(self, edges: List[List[int]], values: List[int]) -> int:
+        g = [[] for _ in values]
+        g[0].append(-1)
+        for x, y in edges:
+            g[x].append(y)
+            g[y].append(x)
 
+        def dfs(x, fa):
+            if len(g[x]) == 1:  # x是叶子
+                return values[x]
+            loss = 0
+            for y in g[x]:
+                if y != fa:
+                    loss += dfs(y, x)
+            return min(values[x], loss)
+
+        return sum(values) - dfs(0, -1)
