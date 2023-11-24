@@ -1,5 +1,6 @@
+# 动态规划、
 
-○ https://www.bilibili.com/video/BV1Xj411K7oF/?spm_id_from=333.999.0.0
+○ [灵茶山艾府_动态规划入门：从记忆化搜索到递推](https://www.bilibili.com/video/BV1Xj411K7oF/?spm_id_from=333.788&vd_source=5c4d3e12d3512ed84532d27dcef8ab0d)
 ○ https://www.zhihu.com/question/60730045
 ○ https://oi-wiki.org/dp/memo/
 ○ https://juejin.cn/post/7279265985912406052
@@ -18,3 +19,11 @@
 ## 记忆化搜索
 - 记忆化搜索是一种通过记录已经遍历过的状态的信息，从而避免对同一状态重复遍历的搜索实现方式。
 - 因为记忆化搜索确保了每个状态只访问一次，它也是一种常见的动态规划实现方式。
+
+
+## 背包DP
+- [灵茶山艾府_0-1背包 完全背包【基础算法精讲 18】](https://www.bilibili.com/video/BV16Y411v7Y6/?spm_id_from=333.788&vd_source=5c4d3e12d3512ed84532d27dcef8ab0d)
+
+
+## 状态机DP
+- [灵茶山艾府_状态机DP 买卖股票系列](https://www.bilibili.com/video/BV1ho4y1W7QK/?spm_id_from=333.788&vd_source=5c4d3e12d3512ed84532d27dcef8ab0d)

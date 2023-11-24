@@ -84,7 +84,7 @@ print(math.log2(10 ** 5)) # 16.609640474436812
 - [贪心 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy)
 - [排序 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting)
 - [字符串 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings)
-- [双指针算法 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer)
+- [双指针算法 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Pointer)
 - [滑动窗口 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window)
 - [栈&&单调栈 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack)
 - [队列&&单调队列 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue)
