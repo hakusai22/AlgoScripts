@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Go_Study/Middleware/Websocket/ws"
+	"Go_Study/Goland_Middleware/Websocket/ws"
 	"github.com/gorilla/websocket"
 	"net/http"
 )

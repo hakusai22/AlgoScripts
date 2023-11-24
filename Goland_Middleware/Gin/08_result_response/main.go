@@ -1,7 +1,7 @@
 package main
 
 import (
-	result "Go_Study/Middleware/Gin"
+	result "Go_Study/Goland_Middleware/Gin"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

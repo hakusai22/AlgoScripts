@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Go_Study/Middleware/mycat/hash"
+	"Go_Study/Goland_Middleware/mycat/hash"
 	"fmt"
 	"sort"
 )

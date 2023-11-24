@@ -99,7 +99,7 @@ func main() {
 			c.JSON(http.StatusOK, gin.H{"inserted_id": insertedID})
 
 		default:
-			c.JSON(http.StatusBadRequest, gin.H{"12_error": "Invalid SQL type"})
+			c.JSON(http.StatusBadRequest, gin.H{"12_error": "Invalid Goland_SQL type"})
 		}
 	})
 
