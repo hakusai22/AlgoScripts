@@ -1,4 +1,10 @@
 
+○ https://www.bilibili.com/video/BV1Xj411K7oF/?spm_id_from=333.999.0.0
+○ https://www.zhihu.com/question/60730045
+○ https://oi-wiki.org/dp/memo/
+○ https://juejin.cn/post/7279265985912406052
+○ https://www.luogu.com.cn/blog/interestingLSY/memdfs-and-dp
+
 ## 数位统计DP
 - 数位是指把一个数字按照个、十、百、千等等一位一位地拆开，关注它每一位上的数字。如果拆的是十进制数，那么每一位数字都是 0~9，其他进制可类比十进制。
 

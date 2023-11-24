@@ -100,13 +100,13 @@ print(math.log2(10 ** 5)) # 16.609640474436812
 
 
 #### 动态规划
-- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search)
-- [线性DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Linear_DP)
-- [背包DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Backpack_DP)
-- [状压DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/State_Compression_DP)
-- [区间DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Interval_DP)
-- [计数DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Count_DP)
-- [树形DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Tree_Shape_DP)
+- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Memory_Search)
+- [线性DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Linear_DP)
+- [背包DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Backpack_DP)
+- [状压DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/State_Compression_DP)
+- [区间DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Interval_DP)
+- [计数DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Count_DP)
+- [树形DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Dynamic_Programming/Tree_Shape_DP)
 
 #### 搜索
 - [DFS]()
@@ -116,23 +116,23 @@ print(math.log2(10 ** 5)) # 16.609640474436812
 - [A*]()
 
 #### 图论
-- [DFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/DFS](Algorithm/Algorithm_Questions_By_Tags/Graph/DFS)
-- [BFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/BFS](Algorithm/Algorithm_Questions_By_Tags/Graph/BFS)
-- [拓扑排序 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting](Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting)
+- [DFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/DFS](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/DFS)
+- [BFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/BFS](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/BFS)
+- [拓扑排序 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Topological_Sorting)
 - [最小生成树]
-  - [Kruskal算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal](Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal)
-  - [Prim算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Prim](Algorithm/Algorithm_Questions_By_Tags/Graph/Prim)
+  - [Kruskal算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Kruskal)
+  - [Prim算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Prim](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Prim)
 - [最短路]
-  - [Floyd算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd](Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd)
-  - [Bellman–Ford算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford](Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford)
-  - [Dijkstra算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra](Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra)
+  - [Floyd算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Floyd)
+  - [Bellman–Ford算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Bellman_Ford)
+  - [Dijkstra算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Graph/Dijkstra)
 
 #### 数学
-- [约数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor)
-- [质数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Prime_Number)
-- [快速幂 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Fast_Exponentiation)
-- [组合数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Combinations)
-- [容斥原理 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
+- [约数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Mathematical_Knowledge/Divisor)
+- [质数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Mathematical_Knowledge/Prime_Number)
+- [快速幂 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Mathematical_Knowledge/Fast_Exponentiation)
+- [组合数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Mathematical_Knowledge/Combinations)
+- [容斥原理 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
 
 
 ### Go 项目运行命令
