@@ -1,4 +1,4 @@
-package Algorithm
+package Goland_Python3_Algorithm
 
 import (
 	"bufio"

@@ -4,7 +4,7 @@
 import os
 
 if __name__ == '__main__':
-    print(os.getcwd())  # 当前工作目录 /Users/yinpeng/PythonWorkSpace/Algorithm-study/py标准库
+    print(os.getcwd())  # 当前工作目录 /Users/yinpeng/PythonWorkSpace/Goland_Python3_Algorithm-study/py标准库
     print(os.curdir)  # 当前工作目录符号： .
     print(os.listdir(os.curdir))  # 当前目录下得的文件 ['py_os.py', 'py_sys.py']
     print(os.linesep)  # 当前操作系统的换行符：
