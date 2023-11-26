@@ -79,17 +79,20 @@ def sep():
 
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
-        # 初始化计数器
-        count = 0
-
-        # 遍历每个孩子可能获得的糖果数
-        for i in range(min(n, limit) + 1):
-            # 调整第二个孩子可能获得的糖果数的上限
-            for j in range(min(n - i, limit) + 1):
-                # 第三个孩子可能获得的糖果数
-                k = n - i - j
-                # 只有当 k 在 0 到 limit 之间时才算一种有效的分配方式
-                if 0 <= k <= limit:
-                    count += 1
-
-        return count
+        cnt = 0
+        if 3 * limit < n:
+            return 0
+        for i in range(max(0, n - 2 * limit), limit + 1):
+            temN = n - i
+            if temN < 0:
+                break
+            if 2 * limit < temN:
+                continue
+            if temN == limit:
+                cnt += (limit + 1)
+            elif temN < limit:
+                cnt += (temN + 1)
+            else:
+                start = temN - limit
+                cnt += (limit - start + 1)
+        return cnt

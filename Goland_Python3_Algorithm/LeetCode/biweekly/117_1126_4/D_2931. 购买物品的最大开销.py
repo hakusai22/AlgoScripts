@@ -75,24 +75,12 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/11/11 22:25
-
+# @Time    : 2023/11/26 21:02
 class Solution:
-    def distributeCandies(self, n: int, limit: int) -> int:
-        # 计算组合数的函数
-        def combination(n, k):
-            if k > n:
-                return 0
-            result = 1
-            for i in range(1, k + 1):
-                result = result * (n - i + 1) // i
-            return result
+    def maxSpending(self, values: List[List[int]]) -> int:
+        # 排序mnlog(mn)
+        a = sorted(x for row in values for x in row)
+        return sum(x * i for i, x in enumerate(a, 1))
 
-        # 计算总组合数
-        total_ways = combination(n + 2, 2)
-
-        # 减去不满足条件的组合数
-        for i in range(limit + 1, n + 1):
-            total_ways -= combination(n - i + 1, 1) * combination(i + 1, 2)
-
-        return total_ways
+if __name__ == '__main__':
+    Solution.maxSpending(self=None, values=[[8, 5, 2], [6, 4, 1], [9, 7, 3]])
