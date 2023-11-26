@@ -1,4 +1,4 @@
-package _70
+package _70_3
 
 /*
    --idea https://leetcode.cn/problems/find-champion-ii/description/
