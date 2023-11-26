@@ -77,14 +77,7 @@ def sep():
 # @Author  : hakusai
 # @Time    : 2023/11/25 22:27
 
-from typing import List
 
 class Solution:
     def findWordsContaining(self, words: List[str], x: str) -> List[int]:
-        indices = []
-
-        for index, word in enumerate(words):
-            if x in word:
-                indices.append(index)
-
-        return indices
+        return [i for i, s in enumerate(words) if x in s]

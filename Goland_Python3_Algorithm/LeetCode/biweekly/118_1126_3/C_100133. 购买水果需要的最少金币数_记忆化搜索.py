@@ -81,9 +81,12 @@ class Solution:
     def minimumCoins(self, prices: List[int]) -> int:
         n = len(prices)
 
+        # 获得i 及其后面所有水果的最少金币数
         @cache
         def dfs(i):
-            if i >= n: return 0
-            return prices[i] + min(dfs(j) for j in range(i + 1, min(n + 1, 2 * i + 1)))
-
-        return dfs(0)
+            if i > n:
+                return 0
+            # i+1 i+2....2i 是免费的
+            # 下一个购买的水果是 [i+1,2i+1] 之间一定要买一个
+            return prices[i - 1] + min(dfs(j) for j in range(i + 1, i * 2 + 2))
+        return dfs(1)
