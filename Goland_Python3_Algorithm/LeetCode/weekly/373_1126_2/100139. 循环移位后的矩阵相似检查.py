@@ -80,14 +80,4 @@ def sep():
 class Solution:
     def areSimilar(self, mat: List[List[int]], k: int) -> bool:
         k %= len(mat[0])
-        if k == 0:
-            return True
-        for i, r in enumerate(mat):
-            r0 = r.copy()
-            if i % 2 == 0:
-                r = r[k:] + r[:k]
-            else:
-                r = r[-k:] + r[:-k]
-            if r != r0:
-                return False
-        return True
+        return k == 0 or all(r == r[k:] + r[:k] for r in mat)
