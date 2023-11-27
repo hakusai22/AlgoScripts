@@ -100,7 +100,7 @@ print(math.log2(10 ** 5)) # 16.609640474436812
 
 
 #### 动态规划
-- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Memory_Search)
+- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Memory_Search)
 - [线性DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Linear_DP)
 - [背包DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Backpack_DP)
 - [状压DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/State_Compression_DP)
