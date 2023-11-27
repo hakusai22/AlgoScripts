@@ -76,3 +76,41 @@ def sep():
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
 # @Time    : 2023/11/27 15:10
+
+# 给定一个整数数组  nums 和一个正整数 k，找出是否有可能把这个数组分成 k 个非空子集，其总和都相等。
+
+class Solution:
+    def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
+
+        # dfs state 二进制记录第i个元素是否被使用 t当前子集的和
+        @cache
+        def dfs(s, p):
+            # state=0说明每一个数都被使用了
+            if s == 0:
+                return True
+
+            # 枚举剩余的数字
+            for i in range(n):
+                # 引入这个数字如果大于avg，因为从小到大排序，所以后面的数字也就不用看了，无解
+                if nums[i] + p > per:
+                    break
+                # s ^ (1 << i) 1^1=0 第i位被使用
+                #  values[i] + total 代表将values[i]放入当前集合
+                #  通过 %avg,能够使得values[i] + total = avg时，变为0，相当于引入一个新的空集合
+                if s >> i & 1 and dfs(s ^ (1 << i), (p + nums[i]) % per):  # p + nums[i] 等于 per 时置为 0
+                    return True
+            return False
+
+        # // 如果总和不能平均分为k份，返回false
+        all = sum(nums)
+        if all % k:
+            return False
+        per = all // k
+        nums.sort()
+        # 最大的数大于per，无解
+        if nums[-1] > per:
+            return False
+        n = len(nums)
+        # 一开始，所有数字都没有被使用过
+        # (1 << n) - 1 相当于0~n-1位都是1，比如n=2，就是 011
+        return dfs((1 << n) - 1, 0)
