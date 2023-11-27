@@ -75,20 +75,22 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/22 16:08
-
+# @Time    : 2023/10/22 12:04
 class Solution:
-    def minGroupsForValidAssignment(self, nums: List[int]) -> int:
-        cnt = Counter(nums)
-        ans = 0
-        for k in range(min(cnt.values()), 0, -1):
-            for c in cnt.values():
-                q, r = divmod(c, k)
-                if q < r:
-                    ans = 0
-                    break
-                else:
-                    ans += (c + k) // (k + 1)
-            if ans > 0:
-                return ans
-        return ans
+    def minimumSum(self, nums: List[int]) -> int:
+        n = len(nums)
+        pre = nums.copy()
+        suf = nums.copy()
+        # 前后缀最小值
+        for i in range(1, n):
+            pre[i] = min(pre[i], pre[i - 1])
+        for i in reversed(range(n - 1)):
+            suf[i] = min(suf[i], suf[i + 1])
+        ans = inf
+        for i in range(1, n - 1):
+            if pre[i - 1] < nums[i] and suf[i + 1] < nums[i]:
+                ans = min(ans, nums[i] + pre[i - 1] + suf[i + 1])
+        return ans if ans != inf else -1
+
+if __name__ == '__main__':
+    print(Solution.minimumSum(self=None, nums=[8, 6, 1, 5, 3]))

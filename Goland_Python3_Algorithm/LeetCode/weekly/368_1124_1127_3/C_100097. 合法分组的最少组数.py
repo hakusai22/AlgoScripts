@@ -75,23 +75,26 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/22 12:04
+# @Time    : 2023/10/22 16:08
+
 class Solution:
-    def minimumSum(self, nums: List[int]) -> int:
-        n = len(nums)
-        pre = nums.copy()
-        suf = nums.copy()
-        for i in range(1, n):
-            pre[i] = min(pre[i], pre[i - 1])
-        for i in reversed(range(n - 1)):
-            suf[i] = min(suf[i], suf[i + 1])
-        ans = -1
-        for i in range(1, n - 1):
-            if pre[i - 1] < nums[i] and suf[i + 1] < nums[i]:
-                pans = nums[i] + pre[i - 1] + suf[i + 1]
-                if ans == -1 or ans > pans:
-                    ans = pans
+    def minGroupsForValidAssignment(self, nums: List[int]) -> int:
+        cnt = Counter(nums)
+        ans = 0
+        # 对于任意两个组 g1 和 g2 ，两个组中 下标数量 的 差值不超过 1 。所以以最小的计数值最为k个一组 大于最小的计数值可以分为k/k+1个一组
+        # 枚举k (k是计数里面最少的)从大到小 k个为一组
+        for k in range(min(cnt.values()), 0, -1):
+            # 从小到大枚举每个值的数量
+            for c in cnt.values():
+                q, r = divmod(c, k)
+                if q < r:
+                    ans = 0
+                    break
+                else:
+                    ans += (c + k) // (k + 1)
+            if ans > 0:
+                return ans
         return ans
 
 if __name__ == '__main__':
-    Solution.minimumSum(self=None, nums=[8, 6, 1, 5, 3])
+    Solution.minGroupsForValidAssignment(self=None, nums=[10,10,10,3,1,1])
