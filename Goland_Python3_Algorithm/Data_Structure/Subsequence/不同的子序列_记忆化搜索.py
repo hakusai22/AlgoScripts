@@ -76,20 +76,27 @@ def sep():
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
 # @Time    : 2023/10/19 23:16
+#
+# 给定一个字符串 s 和一个字符串 t ，计算在 s 的子序列中 t 出现的个数。
+# 字符串的一个 子序列 是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，"ACE" 是 "ABCDE" 的一个子序列，而 "AEC" 不是）
+# 题目数据保证答案符合 32 位带符号整数范围。
+
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
 
+        #dfs 从s从i到len(s) t从j到len(t) 的总次数 记忆化不是从顶到下吗 从下到上递推好矛盾呀
         @cache
         def dfs(i, j):
-            if j == len(t):
+            if j == len(t): # t匹配完了
                 return 1
-            if i == len(s):
+            if i == len(s): # s匹配完了依然没找到答案
                 return 0
-
+            # 跳过s[i]，并进行下一步搜索：s[i+1]与t[j]匹配
             cnt = 0
             cnt += dfs(i + 1, j)
+            # 选择s[i]，并进行下一步搜索
             if s[i] == t[j]:
                 cnt += dfs(i + 1, j + 1)
             return cnt
 
-        return dfs(0, 0)
+        return dfs(0, 0)  # 初始从s[0]和t[0]开始搜索

@@ -72,19 +72,17 @@ def sep():
     a = input().rstrip('\n')
     return a
 
-# --idea  时间复杂度：O(nm)
-#         空间复杂度：O(nm)
+# --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 22:36
+# @Time    : 2023/11/27 16:54
+#
+# 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+# 子数组和子串.md 是数组中的一个连续部分。
 class Solution:
-    def longestCommonSubsequence(self, s: str, t: str) -> int:
-        n, m = len(s), len(t)
-        @cache
-        def dfs(i, j):
-            if i < 0 or j < 0:
-                return 0
-            if s[i] == t[j]:
-                return dfs(i - 1, j - 1) + 1
-            return max(dfs(i - 1, j), dfs(i, j - 1))
-        return dfs(n - 1, m - 1)
+    def maxSubArray(self, nums: List[int]) -> int:
+        ans = f = nums[0]
+        for x in nums[1:]:
+            f = max(f, 0) + x
+            ans = max(ans, f)
+        return ans
