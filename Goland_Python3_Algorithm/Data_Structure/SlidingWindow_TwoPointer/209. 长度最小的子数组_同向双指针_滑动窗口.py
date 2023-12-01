@@ -64,33 +64,23 @@ def Lucas(n, m, p):
         return 1
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
-def rep():
-    a = list(map(int, input().split()))
-    return a
-
-def sep():
-    a = input().rstrip('\n')
-    return a
-
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 23:32
+# @Time    : 2023/12/01 11:51
 #
-# 给你一个字符串 s ，考虑其所有 重复子串 ：即 s 的（连续）子串，在 s 中出现 2 次或更多次。这些出现之间可能存在重叠。
-#
-# 返回 任意一个 可能具有最长长度的重复子串。如果 s 不含重复子串，那么答案为 "" 。
+# 给定一个含有 n 个正整数的数组和一个正整数 target 。
+# 找出该数组中满足其总和大于等于 target 的长度最小的 连续子数组 [numsl, numsl+1, ..., numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。
 
 class Solution:
-    def longestDupSubstring(self, s: str) -> str:
-        n = len(s)
-        l, r = 0, 1
-        mx, res = 0, ""
-        while r <= n:
-            if s[l:r] in s[l + 1:]:
-                if r - l > mx:
-                    mx, res = r - l, s[l:r]
-                r += 1
-            else:
-                l += 1
-        return res
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        n = len(nums)
+        ans = inf
+        s = left = 0
+        for right, x in enumerate(nums):
+            s += x
+            while s >= target:
+                ans = min(ans, right - left + 1)
+                s -= nums[left]
+                left += 1
+        return ans if ans != inf else 0

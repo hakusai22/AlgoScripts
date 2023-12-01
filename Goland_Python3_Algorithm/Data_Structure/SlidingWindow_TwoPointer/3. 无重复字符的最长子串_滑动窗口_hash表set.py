@@ -75,22 +75,22 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 23:32
-#
-# 给你一个字符串 s ，考虑其所有 重复子串 ：即 s 的（连续）子串，在 s 中出现 2 次或更多次。这些出现之间可能存在重叠。
-#
-# 返回 任意一个 可能具有最长长度的重复子串。如果 s 不含重复子串，那么答案为 "" 。
+# @Time    : 2023/11/28 11:20
+
+# 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
 
 class Solution:
-    def longestDupSubstring(self, s: str) -> str:
-        n = len(s)
-        l, r = 0, 1
-        mx, res = 0, ""
-        while r <= n:
-            if s[l:r] in s[l + 1:]:
-                if r - l > mx:
-                    mx, res = r - l, s[l:r]
-                r += 1
-            else:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        ans = l = 0
+        st = set()
+        for r, c in enumerate(s):
+            while c in st:
+                st.remove(s[l])
                 l += 1
-        return res
+            st.add(c)
+            ans = max(ans, r - l + 1)
+        return ans
+
+if __name__ == '__main__':
+    Solution.lengthOfLongestSubstring(self=None, s=
+    "pwwkew")

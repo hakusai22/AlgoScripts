@@ -64,33 +64,29 @@ def Lucas(n, m, p):
         return 1
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
-def rep():
-    a = list(map(int, input().split()))
-    return a
-
-def sep():
-    a = input().rstrip('\n')
-    return a
-
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 23:32
+# @Time    : 2023/12/01 14:40
 #
-# 给你一个字符串 s ，考虑其所有 重复子串 ：即 s 的（连续）子串，在 s 中出现 2 次或更多次。这些出现之间可能存在重叠。
 #
-# 返回 任意一个 可能具有最长长度的重复子串。如果 s 不含重复子串，那么答案为 "" 。
+# 有一个只含有 'Q', 'W', 'E', 'R' 四种字符，且长度为 n 的字符串。
+# 假如在该字符串中，这四个字符都恰好出现 n/4 次，那么它就是一个「平衡字符串」。
+# 给你一个这样的字符串 s，请通过「替换一个子串」的方式，使原字符串 s 变成一个「平衡字符串」。
+# 你可以用和「待替换子串」长度相同的 任何 其他字符串来完成替换。
+# 请返回待替换子串的最小可能长度。
+# 如果原字符串自身就是一个平衡字符串，则返回 0。
 
 class Solution:
-    def longestDupSubstring(self, s: str) -> str:
-        n = len(s)
-        l, r = 0, 1
-        mx, res = 0, ""
-        while r <= n:
-            if s[l:r] in s[l + 1:]:
-                if r - l > mx:
-                    mx, res = r - l, s[l:r]
-                r += 1
-            else:
-                l += 1
-        return res
+    def balancedString(self, s: str) -> int:
+        cnt, m = Counter(s), len(s) // 4
+        if all(cnt[x] == m for x in "QWER"):
+            return 0
+        ans, left = inf, 0
+        for right, x in enumerate(s):
+            cnt[x] -= 1
+            while all(cnt[x] <= m for x in "QWER"):
+                ans = min(ans, right - left + 1)
+                cnt[s[left]] += 1
+                left += 1
+        return ans

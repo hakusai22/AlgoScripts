@@ -64,33 +64,24 @@ def Lucas(n, m, p):
         return 1
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
-def rep():
-    a = list(map(int, input().split()))
-    return a
-
-def sep():
-    a = input().rstrip('\n')
-    return a
-
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/10/19 23:32
+# @Time    : 2023/12/01 11:45
 #
-# 给你一个字符串 s ，考虑其所有 重复子串 ：即 s 的（连续）子串，在 s 中出现 2 次或更多次。这些出现之间可能存在重叠。
-#
-# 返回 任意一个 可能具有最长长度的重复子串。如果 s 不含重复子串，那么答案为 "" 。
+# 给你一个整数数组 nums 和两个整数：left 及 right 。
+# 找出 nums 中连续、非空且其中最大元素在范围 [left, right] 内的子数组，并返回满足条件的子数组的个数。
+# 生成的测试用例保证结果符合 32-bit 整数范围。
 
 class Solution:
-    def longestDupSubstring(self, s: str) -> str:
-        n = len(s)
-        l, r = 0, 1
-        mx, res = 0, ""
-        while r <= n:
-            if s[l:r] in s[l + 1:]:
-                if r - l > mx:
-                    mx, res = r - l, s[l:r]
-                r += 1
-            else:
-                l += 1
-        return res
+    def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:
+
+        ans, i0, i1 = 0, -1, -1
+        for i, x in enumerate(nums):
+            if x > right: i0 = i
+            if x >= left: i1 = i
+            ans += i1 - i0
+        return ans
+
+if __name__ == '__main__':
+    Solution.numSubarrayBoundedMax(self=None, nums=[2, 1, 4, 3], left=2, right=3)
