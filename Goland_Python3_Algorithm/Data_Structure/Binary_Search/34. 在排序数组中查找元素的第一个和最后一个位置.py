@@ -33,6 +33,10 @@ class TreeNode:
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
 # @Time    : 2022/11/22 21:22
+#
+# 给你一个按照非递减顺序排列的整数数组 nums，和一个目标值 target。请你找出给定目标值在数组中的开始位置和结束位置。
+# 如果数组中不存在目标值 target，返回 [-1, -1]。
+# 你必须设计并实现时间复杂度为 O(log n) 的算法解决此问题。
 
 class Solution:
     def searchRange(self, arr: List[int], target: int) -> List[int]:
@@ -42,32 +46,34 @@ class Solution:
         # 搜索出左端点的下标
         # 区间[l, r]被划分成 [l, mid] 和 [mid+1, r]时使用
         # mid归于左边, r = mid, mid选择 不 +1
-        l, r = 0, len(arr) - 1
-        while l < r:
-            mid = (l + r) // 2
-            if arr[mid] >= target:
-                r = mid
-            else:
-                l = mid + 1
-        if arr[l] != target:
-            return [-1, -1]
-        left = l
+        # l, r = 0, len(arr) - 1
+        # while l < r:
+        #     mid = (l + r) // 2
+        #     if arr[mid] >= target:
+        #         r = mid
+        #     else:
+        #         l = mid + 1
+        # if arr[l] != target:
+        #     return [-1, -1]
+        # left = l
 
         # 模板2在满足check()的区间内找到右边界
         # 搜索出右端点的下标
         # 区间[l, r]被划分成 [l, mid-1] 和 [mid, r]时使用
         # mid归于右边, l = mid, mid选择 +1
-        l, r = 0, len(arr) - 1
-        while l < r:
-            mid = (l + r + 1) >> 1
-            if arr[mid] <= target:
-                l = mid
-            else:
-                r = mid - 1
-        return [left, l]
+        # l, r = 0, len(arr) - 1
+        # while l < r:
+        #     mid = (l + r + 1) >> 1
+        #     if arr[mid] <= target:
+        #         l = mid
+        #     else:
+        #         r = mid - 1
+        # return [left, l]
 
-        # i = bisect_left(arr, target)
-        # if not (i < len(arr) and arr[i] == target):
-        #     return [-1, -1]
-        #
-        # return [i, bisect_right(arr, target) - 1]
+        # bisect_left函数返回排序数组中值等于k的最左索引，如果没有，就返回插入后其索引
+        # bis_right函数返回排序数组中值等于k的最右索引+1，如果没有，就返回插入后其索引
+        i = bisect_left(arr, target)
+        if not (i < len(arr) and arr[i] == target):
+            return [-1, -1]
+
+        return [i, bisect_right(arr, target) - 1]
