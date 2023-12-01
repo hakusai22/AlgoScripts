@@ -69,7 +69,7 @@ class ListNode:
 # @Author  : zero
 # @Time    : 2022/12/10 13:45
 """
-Sliding_Window 时间复杂度：O(n)
+SlidingWindow_TwoPointer 时间复杂度：O(n)
 """
 
 class Solution:

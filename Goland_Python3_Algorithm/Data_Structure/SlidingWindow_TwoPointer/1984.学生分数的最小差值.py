@@ -14,9 +14,6 @@ import os
 
 MOD = int(1e9 + 7)
 INF = int(1e20)
-INFMIN = float('-inf')
-INFMAX = float('inf')
-
 '''
 gcd(), ord(), chr(), lower(), upper() 最大公约数/ASCII字符数值/数值ASCII字符/小写/大写
 startswith(s), endswith(s), find(), index(), count(s)  字符串是否以s开始的/字符串是否以s结尾的/查找返回的是索引/获取索引
@@ -67,23 +64,13 @@ class ListNode:
 
 # -*- coding: utf-8 -*-
 # @Author  : zero
-# @Time    : 2022/12/10 13:45
-"""
-Sliding_Window 时间复杂度：O(n)
-"""
-
+# @Time    : 2022/11/27 21:02
+# Sorting+SlidingWindow_TwoPointer
 class Solution:
-    def minSubArrayLen(self, s: int, nums: List[int]) -> int:
-        if not nums:
-            return 0
-        left = 0
-        cur = 0
-        res = INFMAX
-        for right in range(len(nums)):
-            cur += nums[right]
-            while cur >= s:
-                res = min(res, right - left + 1)
-                cur -= nums[left]
-                left += 1
-
-        return res if res != INFMAX else 0
+    def minimumDifference(self, nums: List[int], k: int) -> int:
+        nums.sort()
+        res = nums[-1] - nums[0]
+        for right in range(k - 1, len(nums)):
+            left = right - k + 1
+            res = min(res, nums[right] - nums[left])
+        return res
