@@ -64,25 +64,39 @@ def Lucas(n, m, p):
         return 1
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
-def rep():
-    a = list(map(int, input().split()))
-    return a
-
-def sep():
-    a = input().rstrip('\n')
-    return a
-
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/11/27 16:54
+# @Time    : 2023/12/01 15:36
 #
-# 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
-# 子数组和子串.md 是数组中的一个连续部分。
+# 给你一个长度为 n 的整数数组 nums 和 一个目标值 target。请你从 nums 中选出三个整数，使它们的和与 target 最接近。
+# 返回这三个数的和。
+# 假定每组输入只存在恰好一个解。
+
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        ans = f = nums[0]
-        for x in nums[1:]:
-            f = max(f, 0) + x
-            ans = max(ans, f)
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        mindiff = inf
+        n = len(nums)
+        for i in range(n - 2):
+            x = nums[i]
+            if i > 0 and x == nums[i - 1]:
+                continue
+
+            j = i + 1
+            k = n - 1
+            while j < k:
+                s = x + nums[j] + nums[k]
+                if s == target:
+                    return s
+                elif s < target:
+                    if target - s < mindiff:
+                        mindiff = target - s
+                        ans = s
+                    j += 1
+                else:
+                    if s - target < mindiff:
+                        mindiff = s - target
+                        ans = s
+                    k -= 1
         return ans
