@@ -64,7 +64,7 @@ class TreeNode:
 
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
-        # 闭区间 [l,r]
+        # 闭区间 [0,N-1]
         l, r = 0, len(nums) - 1
         while l < r:
             mid = (l + r) >> 1

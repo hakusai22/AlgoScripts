@@ -73,24 +73,31 @@ def Lucas(n, m, p):
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/12/01 16:50
+# @Time    : 2023/12/01 17:49
 #
-# 给你一个整数数组 citations ，其中 citations[i] 表示研究者的第 i 篇论文被引用的次数，citations 已经按照 升序排列 。计算并返回该研究者的 h 指数。
-# h 指数的定义：h 代表“高引用次数”（high citations），一名科研人员的 h 指数是指他（她）的 （n 篇论文中）至少 有 h 篇论文分别被引用了至少 h 次。
-# 请你设计并实现对数时间复杂度的算法解决此问题。
-
-# 如果有至少 x 篇论文的引用次数大于等于 x，那么对于任意 y<x，其引用次数也一定大于等于 y。这存在着单调性。
-# 二分枚举 h，获取满足条件的最大 h。由于要满足 h 篇论文至少被引用 h 次
+# 整数数组 nums 按升序排列，数组中的值 互不相同 。
+# 在传递给函数之前，nums 在预先未知的某个下标 k（0 <= k < nums.length）上进行了 旋转，使数组变为 [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]（下标 从 0 开始 计数）。例如， [0,1,2,4,5,6,7] 在下标 3 处经旋转后可能变为 [4,5,6,7,0,1,2] 。
+# 给你 旋转后 的数组 nums 和一个整数 target ，如果 nums 中存在这个目标值 target ，则返回它的下标，否则返回 -1 。
+# 你必须设计一个时间复杂度为 O(log n) 的算法解决此问题。
 
 class Solution:
-    def hIndex(self, citations: List[int]) -> int:
-        # 左开右闭区间写法 [l,r) 模版二 找右边界
-        l, r = 0, len(citations)
-        while l < r:
-            mid = (l + r + 1) >> 1
-            # 引用次数最多的 mid 篇论文，引用次数均 >= mid
-            if citations[-mid] >= mid:
-                l = mid  # 询问范围缩小到 (mid, right]
+    def search(self, nums: List[int], target: int) -> int:
+        left, right = 0, len(nums) - 1
+        while left <= right:
+            mid = (left + right) >> 1
+            if nums[mid] == target:
+                return mid
+            elif nums[left] <= nums[mid]:
+                if nums[left] <= target < nums[mid]:
+                    right = mid - 1
+                else:
+                    left = mid + 1
             else:
-                r = mid - 1  # 询问范围缩小到 (left, mid-1]
-        return l
+                if nums[mid] < target <= nums[right]:
+                    left = mid + 1
+                else:
+                    right = mid - 1
+        return -1
+
+if __name__ == '__main__':
+    print(Solution.search(self=None, nums=[4, 5, 6, 7, 0, 1, 2], target=3))
