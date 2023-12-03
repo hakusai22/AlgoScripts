@@ -1,4 +1,4 @@
-package Prefix_Sum
+package Prefix_Suffix
 
 import (
 	"bufio"

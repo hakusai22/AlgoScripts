@@ -72,7 +72,7 @@ class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         if not nums:
             return 0
-        # Prefix_Sum
+        # Prefix_Suffix
         for i in range(1, len(nums)):
             nums[i] += nums[i - 1]
         if nums[-1] < s:

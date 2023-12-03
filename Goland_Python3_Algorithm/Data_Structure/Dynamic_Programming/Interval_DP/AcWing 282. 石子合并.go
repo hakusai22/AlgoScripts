@@ -53,7 +53,7 @@ func main() {
 
 	for i := 1; i <= n; i++ {
 		fmt.Fscan(input, &s[i])
-		// Prefix_Sum
+		// Prefix_Suffix
 		s[i] += s[i-1]
 	}
 	// 通过区间长度来计算
