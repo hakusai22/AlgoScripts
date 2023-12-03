@@ -23,6 +23,12 @@ ALPS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alps = 'abcdefghijklmnopqrstuvwxyz'
 
 '''
+heaqp
+deque
+permutations(arr,r) 返回的是一个长度为 r 的所有可能排列，无重复元素
+combinations(arr,r) 返回的是一个长度为r的组合，它是有序的，无重复元素
+bisect_left()等同 函数返回排序数组中值等于k的最左索引，如果没有，就返回插入后其索引
+bisect()和bis_right函数返回排序数组中值等于k的最右索引+1，如果没有，就返回插入后其索引
 gcd(), ord(), chr(), lower(), upper() 最大公约数/ASCII字符数值/数值ASCII字符/小写/大写
 startswith(s), endswith(s), find(), index(), count(s)  字符串是否以s开始的/字符串是否以s结尾的/查找返回的是索引/获取索引
 isalpha(), isdigit(), space(),join()  判断是否全为字符/判断是否全为数字/判断是否为空格/拼接
@@ -64,34 +70,29 @@ def Lucas(n, m, p):
         return 1
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
-def rep():
-    a = list(map(int, input().split()))
-    return a
-
-def sep():
-    a = input().rstrip('\n')
-    return a
-
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/11/27 13:42
-
-# 给你一个非负整数数组 nums 和一个整数 target 。
-# 向数组中的每个整数前添加 '+' 或 '-' ，然后串联起所有整数，可以构造一个 表达式 ：
-# 例如，nums = [2, 1] ，可以在 2 之前添加 '+' ，在 1 之前添加 '-' ，然后串联起来得到表达式 "+2-1" 。
-# 返回可以通过上述方法构造的、运算结果等于 target 的不同 表达式 的数目。
+# @Time    : 2023/12/03 15:17
+#
+# 给你一个整数数组 coins ，表示不同面额的硬币；以及一个整数 amount ，表示总金额。
+# 计算并返回可以凑成总金额所需的 最少的硬币个数 。如果没有任何一种硬币组合能组成总金额，返回 -1 。
+# 你可以认为每种硬币的数量是无限的。
 
 class Solution:
-    def findTargetSumWays(self, nums: List[int], target: int) -> int:
+    def coinChange(self, coins: List[int], amount: int) -> int:
 
-        # dfs i summ t 表示当前是i位置 当前和为summ 目标值为t 的方案数
         @cache
-        def dfs(i, summ, t):
-            if i == len(nums):
-                return 1 if summ == t else 0
-            return dfs(i + 1, summ + nums[i], t) + dfs(i + 1, summ - nums[i], t)
+        def dfs(i, c):
+            # 递归出口 i小于0 如果c=0 返回 0种
+            if i < 0:
+                return 0 if c == 0 else inf
+            # 大于c 直接不选择
+            if c < coins[i]:
+                return dfs(i - 1, c)
+            # 不选和选择 coins[i]   的最小值
+            return min(dfs(i - 1, c), dfs(i, c - coins[i]) + 1)
 
-        ans = dfs(0, 0, target)
+        ans = dfs(len(coins) - 1, amount)
         dfs.cache_clear()
-        return ans
+        return ans if ans < inf else -1

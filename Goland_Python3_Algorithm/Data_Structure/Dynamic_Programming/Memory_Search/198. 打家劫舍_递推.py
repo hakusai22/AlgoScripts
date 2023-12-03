@@ -75,23 +75,18 @@ def sep():
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/11/27 13:42
-
-# 给你一个非负整数数组 nums 和一个整数 target 。
-# 向数组中的每个整数前添加 '+' 或 '-' ，然后串联起所有整数，可以构造一个 表达式 ：
-# 例如，nums = [2, 1] ，可以在 2 之前添加 '+' ，在 1 之前添加 '-' ，然后串联起来得到表达式 "+2-1" 。
-# 返回可以通过上述方法构造的、运算结果等于 target 的不同 表达式 的数目。
+# @Time    : 2023/11/27 15:52
+#
+# 你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，
+# 影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，
+# 如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警。
+# 给定一个代表每个房屋存放金额的非负整数数组，计算你 不触动警报装置的情况下 ，
+# 一夜之内能够偷窃到的最高金额。
 
 class Solution:
-    def findTargetSumWays(self, nums: List[int], target: int) -> int:
+    def rob(self, nums: List[int]) -> int:
+        f = [0] * (len(nums) + 2)
+        for i, x in enumerate(nums):
+            f[i + 2] = max(f[i + 1], f[i] + x)
+        return f[-1]
 
-        # dfs i summ t 表示当前是i位置 当前和为summ 目标值为t 的方案数
-        @cache
-        def dfs(i, summ, t):
-            if i == len(nums):
-                return 1 if summ == t else 0
-            return dfs(i + 1, summ + nums[i], t) + dfs(i + 1, summ - nums[i], t)
-
-        ans = dfs(0, 0, target)
-        dfs.cache_clear()
-        return ans
