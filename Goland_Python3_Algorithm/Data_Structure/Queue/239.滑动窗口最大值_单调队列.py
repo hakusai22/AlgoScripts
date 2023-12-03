@@ -65,6 +65,15 @@ class ListNode:
 # -*- coding: utf-8 -*-
 # @Author  : zero
 # @Time    : 2022/11/27 21:17
+#
+# 给你一个整数数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。
+# 你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位。
+# 返回 滑动窗口中的最大值 。
+
+# 1 <= nums.length <= 10^5
+# -10^4 <= nums[i] <= 10^4
+# 1 <= k <= nums.length
+
 """
 1. 利用双端队列记录当前滑动窗口的元素索引
 2. 队列最左侧元素记录滑动窗口中最大元素的索引
@@ -78,14 +87,19 @@ class ListNode:
 # nums = [1,3,-1,-3,5,3,6,7], k = 3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
-        res = []
-        queue = deque()
-        for i, num in enumerate(nums):
-            if queue and queue[0] == i - k:
-                queue.popleft()
-            while queue and nums[queue[-1]] < num:
-                queue.pop()
-            queue.append(i)
+        ans = []
+        # 单调递减
+        q = deque()
+        for i, x in enumerate(nums):
+            # 1. 入
+            while q and nums[q[-1]] <= x:
+                q.pop()  # 维护 q 的单调性
+            q.append(i)  # 入队
+            # 2. 出
+            if i - q[0] >= k:  # 队首已经离开窗口了
+                q.popleft()
+            # 3. 记录答案
             if i >= k - 1:
-                res.append(nums[queue[0]])
-        return res
+                # 由于队首到队尾单调递减，所以窗口最大值就是队首
+                ans.append(nums[q[0]])
+        return ans

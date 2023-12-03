@@ -1,4 +1,4 @@
-package Monotonic_Queue
+package Queue
 
 /*
 	单调队列 Monotone Queue
