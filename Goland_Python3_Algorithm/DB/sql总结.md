@@ -26,9 +26,12 @@ window_function_name 函数可以是聚合函数或者非聚合函数。MySQL8 �
   聚合函数：用于计算窗口内的某个字段的聚合值，例如 SUM()，AVG()，MIN()，MAX() 等。
 
 - sum(xxx) over(partition by xxx order by xxx)
+> row_number()  1 2 3 4
 - row_number() over (partition by xxx order by xxx)
   - row_number() ，排序不会连续执行
+> dense_rank()
 - dense_rank() over (order by count(xxx) des函数会把要求排序的值相同的归为一组且每组序号一样c) as rnk ... where rnk = 1
-  - dense_rank() 排序是连续的，也会把相同的值分为一组且每组排序号一样
-- ntile(2) OVER(order by xxx)
-  - Ntile(group_num) 将所有记录分成group_num个组，每组序号一样
+  - dense_rank() 排序是连续的，也会把相同的值分为一组且每组排序号一样  1 1 2 3
+> rank
+- rank() over (order by count(xxx))
+  - rank() 1 1 3 4
