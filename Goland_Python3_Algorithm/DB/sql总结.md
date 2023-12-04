@@ -25,13 +25,21 @@ window_function_name 函数可以是聚合函数或者非聚合函数。MySQL8 �
   头尾函数：用于获取窗口内的第一行或最后一行的值，例如 FIRST_VALUE()，LAST_VALUE() 等。
   聚合函数：用于计算窗口内的某个字段的聚合值，例如 SUM()，AVG()，MIN()，MAX() 等。
 
+> sum 累加xxx字段
 - sum(xxx) over(partition by xxx order by xxx)
+
 > row_number()  1 2 3 4
 - row_number() over (partition by xxx order by xxx)
-  - row_number() ，排序不会连续执行
+
 > dense_rank()
 - dense_rank() over (order by count(xxx) des函数会把要求排序的值相同的归为一组且每组序号一样c) as rnk ... where rnk = 1
   - dense_rank() 排序是连续的，也会把相同的值分为一组且每组排序号一样  1 1 2 3
 > rank
 - rank() over (order by count(xxx))
   - rank() 1 1 3 4
+
+
+## 日期 函数
+> MySQL 快速入门之DATE_FORMAT() 函数详解
+
+## LeetCode数据库SQL100题刷题笔记 https://docs.qq.com/sheet/DRUtTaE5wUHVLcVNN?tab=BB08J2&_t=1701660110148
