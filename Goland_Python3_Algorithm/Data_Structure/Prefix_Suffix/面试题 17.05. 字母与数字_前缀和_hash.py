@@ -76,17 +76,22 @@ def sep():
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
 # @Time    : 2023/11/27 11:28
+#
+# 给定一个放有字母和数字的数组，找到最长的子数组，且包含的字母和数字的个数相同。
+# 返回该子数组，若存在多个最长子数组，返回左端点下标值最小的子数组。若不存在这样的数组，返回一个空数组。
 
 class Solution:
     def findLongestSubarray(self, array: List[str]) -> List[str]:
         # 初始化 前缀和0是符合条件 添加一个默认的点
+        # key为前缀和 value是前缀和的下标
         vis = {0: -1}
         # s表示前缀和，mx表示最长子数组的长度，k表示最长子数组的左端点
         s = mx = k = 0
         for i, x in enumerate(array):
             s += 1 if x.isalpha() else -1
-            # s 如果再set中已经出现过   说明两个点的前缀和相减等于0 两个点之间就是符合的长度
+            # s 如果再set中已经出现过 说明两个点的前缀和相减等于0 两个点之间就是符合的长度
             # 第一次出现 sss 的位置为 j，那么区间 [j+1,..,i] 的子数组和就为 0
+            # 第一次出现前缀和为3 下标j 第二次出现前缀和为3 下标i i-j 就是长度 中间有多少个数(1-0)=1
             if s in vis:
                 j = vis[s]
                 if mx < i - j:

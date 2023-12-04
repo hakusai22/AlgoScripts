@@ -73,21 +73,19 @@ def Lucas(n, m, p):
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/12/03 16:17
-#
-# 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
-# 子序列 是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。
-# 例如，[3,6,2,7] 是数组 [0,3,1,6,2,2,7] 的子序列。
-# 1 <= nums.length <= 2500
-# -10^4 <= nums[i] <= 10^4
+# @Time    : 2023/12/04 16:18
 
-# n^2
 class Solution:
-    def lengthOfLIS(self, nums: List[int]) -> int:
-        f = [0] * len(nums)
-        for i, x in enumerate(nums):
-            for j, y in enumerate(nums[:i]):
-                if x > y:
-                    f[i] = max(f[i], f[j])
-            f[i] += 1
-        return max(f)
+    def numOfMinutes(self, n: int, headID: int, manager: List[int], informTime: List[int]) -> int:
+        g = [[] for _ in range(n)]
+        for i, v in enumerate(manager):
+            if v >= 0:
+                g[v].append(i)
+
+        def dfs(i):
+            maxPath = 0
+            for j in g[i]:
+                maxPath = max(maxPath, dfs(j))
+            return maxPath + informTime[i]
+
+        return dfs(headID)

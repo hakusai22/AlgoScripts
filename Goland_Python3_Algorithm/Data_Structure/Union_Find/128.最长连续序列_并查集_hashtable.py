@@ -63,10 +63,13 @@ class ListNode:
         self.next = next
 
 # -*- coding: utf-8 -*-
-# @Author  : zero
+# @Author  : hakusai22
 # @Time    : 2022/12/04 17:25
 """
-一个未排序数组，要找出数字连续最长序列，且时间复杂度为n，因此只能进行一次遍历且不能进行排序，考虑使用并查集
+给定一个未排序的整数数组 nums ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
+请你设计并实现时间复杂度为 O(n) 的算法解决此问题。
+0 <= nums.length <= 10^5
+-10^9 <= nums[i] <= 10^9
 """
 
 class UnionFind:

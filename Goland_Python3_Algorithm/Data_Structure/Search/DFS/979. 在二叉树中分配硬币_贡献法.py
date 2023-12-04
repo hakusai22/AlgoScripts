@@ -73,21 +73,32 @@ def Lucas(n, m, p):
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/12/03 16:17
+# @Time    : 2023/12/04 17:47
 #
-# 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
-# 子序列 是由数组派生而来的序列，删除（或不删除）数组中的元素而不改变其余元素的顺序。
-# 例如，[3,6,2,7] 是数组 [0,3,1,6,2,2,7] 的子序列。
-# 1 <= nums.length <= 2500
-# -10^4 <= nums[i] <= 10^4
+# 给你一个有 n 个结点的二叉树的根结点 root ，其中树中每个结点 node 都对应有 node.val 枚硬币。整棵树上一共有 n 枚硬币。
+# 在一次移动中，我们可以选择两个相邻的结点，然后将一枚硬币从其中一个结点移动到另一个结点。移动可以是从父结点到子结点，或者从子结点移动到父结点。
+# 返回使每个结点上 只有 一枚硬币所需的 最少 移动次数。
 
-# n^2
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
-    def lengthOfLIS(self, nums: List[int]) -> int:
-        f = [0] * len(nums)
-        for i, x in enumerate(nums):
-            for j, y in enumerate(nums[:i]):
-                if x > y:
-                    f[i] = max(f[i], f[j])
-            f[i] += 1
-        return max(f)
+    def distributeCoins(self, root: Optional[TreeNode]) -> int:
+        ans = 0
+
+        def dfs(node):
+            if node is None:
+                return 0, 0
+            cl, nl = dfs(node.left)
+            cr, nr = dfs(node.right)
+            cs = cl + cr + node.val
+            nodes = nl + nr + 1
+            nonlocal ans
+            ans += abs(cs - nodes)
+            return cs, nodes
+
+        dfs(root)
+        return ans
