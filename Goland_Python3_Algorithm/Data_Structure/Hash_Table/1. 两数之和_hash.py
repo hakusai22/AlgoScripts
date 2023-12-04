@@ -23,6 +23,12 @@ ALPS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alps = 'abcdefghijklmnopqrstuvwxyz'
 
 '''
+heaqp
+deque
+permutations(arr,r) 返回的是一个长度为 r 的所有可能排列，无重复元素
+combinations(arr,r) 返回的是一个长度为r的组合，它是有序的，无重复元素
+bisect_left()等同 函数返回排序数组中值等于k的最左索引，如果没有，就返回插入后其索引
+bisect()和bis_right函数返回排序数组中值等于k的最右索引+1，如果没有，就返回插入后其索引
 gcd(), ord(), chr(), lower(), upper() 最大公约数/ASCII字符数值/数值ASCII字符/小写/大写
 startswith(s), endswith(s), find(), index(), count(s)  字符串是否以s开始的/字符串是否以s结尾的/查找返回的是索引/获取索引
 isalpha(), isdigit(), space(),join()  判断是否全为字符/判断是否全为数字/判断是否为空格/拼接
@@ -67,27 +73,16 @@ def Lucas(n, m, p):
 # --idea 
 # -*- coding: utf-8 -*-
 # @Author  : hakusai
-# @Time    : 2023/12/01 15:00
+# @Time    : 2023/12/04 10:52
 #
-# 给你一个整数数组 nums 和一个整数 x 。
-# 每一次操作时，你应当移除数组 nums 最左边或最右边的元素，然后从 x 中减去该元素的值。
-# 请注意，需要 修改 数组以供接下来的操作使用。
-# 如果可以将 x 恰好 减到 0 ，返回 最小操作数 ；否则，返回 -1 。
-
+# 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
+# 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
+# 你可以按任意顺序返回答案。
 
 class Solution:
-    def minOperations(self, nums: List[int], x: int) -> int:
-        # 中间的子数组的和为t 最长 就是 减少次数最少
-        t = sum(nums) - x
-        if t < 0:
-            return -1
-        ans = -1
-        left = s = 0
-        for r, x in enumerate(nums):
-            s += x
-            while s > t:
-                s -= nums[left]
-                left += 1
-            if s == t:
-                ans = max(ans, r - left + 1)
-        return ans if ans == -1 else len(nums) - ans
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        idx = {}  # 创建一个空哈希表（字典）
+        for j, x in enumerate(nums):  # x=nums[j]
+            if target - x in idx:  # 在左边找 nums[i]，满足 nums[i]+x=target
+                return [idx[target - x], j]  # 返回两个数的下标
+            idx[x] = j  # 保存 nums[j] 和 j
