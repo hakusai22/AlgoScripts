@@ -1,5 +1,6 @@
 ## 常见写法
 - order by count(*)
+-  or bonus is null
 
 ## 常见函数
 
