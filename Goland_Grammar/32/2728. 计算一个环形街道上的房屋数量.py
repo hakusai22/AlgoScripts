@@ -104,5 +104,3 @@ class Solution:
             street.moveRight()
         return ans
 
-if __name__ == '__main__':
-    print(Solution.houseCount(self=None, street=[0, 0, 0, 0], k=10))
