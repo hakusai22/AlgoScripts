@@ -91,12 +91,12 @@ class Solution:
         while queue:
             ans += 1
             for _ in range(len(queue)):
-                x, y = queue.pop()
+                x, y = queue.popleft()
                 for i, j in [[x - 1, y], [x + 1, y], [x, y + 1], [x, y - 1]]:
                     if not (0 <= i < m and 0 <= j < n) or grid[i][j] == "X":
                         continue
                     if grid[i][j] == "#":
                         return ans
                     grid[i][j] = "X"
-                    queue.appendleft((i, j))
+                    queue.append((i, j))
         return -1
