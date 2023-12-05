@@ -79,3 +79,8 @@ class Solution:
 # if __name__ == '__main__':
 #     arr = [1, 2, 3, 4, 5]
 #     print(list(accumulate(arr)))
+
+if __name__ == '__main__':
+    s="111"
+    print(s[1:2])
+
