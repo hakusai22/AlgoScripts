@@ -31,7 +31,7 @@ func main() {
 	fmt.Println("done")
 }
 
-//   chan<- //只写
+// chan<- //只写
 func counter(out chan<- int) {
 	defer close(out)
 	for i := 0; i < 5; i++ {
@@ -39,7 +39,7 @@ func counter(out chan<- int) {
 	}
 }
 
-//   <-chan //只读
+// <-chan //只读
 func printer(in <-chan int) {
 	for num := range in {
 		fmt.Println(num)
