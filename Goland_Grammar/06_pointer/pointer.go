@@ -9,8 +9,8 @@ import "fmt"
 */
 
 // =是赋值变量，:=是定义变量。
-
 // 指针学习
+// Go 支持 指针， 允许在程序中通过 引用传递 来传递值和数据结构。
 func main() {
 	var num = 10
 	fmt.Println("num的地址:", &num) //num的地址： 0x1400009c018
@@ -26,5 +26,5 @@ func main() {
 
 	*ptr = 666
 	fmt.Println("num的值:", num) //num的值: 666
-
+	fmt.Println(max(1, 2))
 }

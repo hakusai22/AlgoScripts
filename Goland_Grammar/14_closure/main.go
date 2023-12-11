@@ -16,7 +16,21 @@ func main() {
 	//test1()
 
 	//使用案例1
-	test2()
+	//test2()
+	nextInt := intSeq()
+	fmt.Println(nextInt()) //1
+	fmt.Println(nextInt()) //2
+	fmt.Println(nextInt()) //3
+	newInts := intSeq()
+	fmt.Println(newInts()) //1
+}
+
+func intSeq() func() int {
+	i := 0
+	return func() int {
+		i++
+		return i
+	}
 }
 
 func test1() {
