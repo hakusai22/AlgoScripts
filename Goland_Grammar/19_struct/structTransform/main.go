@@ -11,6 +11,7 @@ import "fmt"
 type A struct {
 	Num int
 }
+
 type B struct {
 	Num int
 }

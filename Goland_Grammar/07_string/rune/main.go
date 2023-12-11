@@ -22,9 +22,10 @@ func main() {
 	fmt.Println([]rune(str))
 	fmt.Println([]byte(str))
 
-	fmt.Println([]rune(str))
-	fmt.Println([]byte(str))
-
 	res := []rune(str)
+	for _, re := range res {
+		fmt.Println(string(re))
+	}
+	fmt.Println(len(res))
 	fmt.Println(string(res[:4]))
 }

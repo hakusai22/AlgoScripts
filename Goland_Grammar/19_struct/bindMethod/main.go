@@ -6,7 +6,8 @@ package main
    @Time    : 2023/08/14 16:23
 */
 
-//自定义类型都可以绑定方法，不限于结构体  type Integer int  的自定义类型 Integer 也可以绑定方法
+// 结构体下定义方法
+// 自定义类型都可以绑定方法，不限于结构体  type Integer int  的自定义类型 Integer 也可以绑定方法
 import (
 	"fmt"
 )

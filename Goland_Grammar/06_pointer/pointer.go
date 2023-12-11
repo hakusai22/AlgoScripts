@@ -14,7 +14,6 @@ import "fmt"
 func main() {
 	var num = 10
 	fmt.Println("num的地址:", &num) //num的地址： 0x1400009c018
-
 	//1. ptr 是一个指针变量
 	//2. ptr 类型是 *int
 	//3. ptr本身的值为 &num （num的地址）
@@ -27,4 +26,21 @@ func main() {
 	*ptr = 666
 	fmt.Println("num的值:", num) //num的值: 666
 	fmt.Println(max(1, 2))
+
+	i := 1
+	fmt.Println("initial:", i)
+	zeroval(i)
+	fmt.Println("zeroval:", i)
+	zeroptr(&i)
+	fmt.Println("zeroptr:", i)
+
+	fmt.Println("pointer:", &i)
+}
+
+func zeroval(val int) {
+	val = 0
+}
+
+func zeroptr(val *int) {
+	*val = 0
 }
