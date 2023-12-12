@@ -62,9 +62,9 @@ Go_Python_Study 学习记录
 ## [Python3 刷题总结](./Python3_README.md)
 ## [GO 刷题总结](./Go_README.md)
 
-### 分类型刷题
+## 分类型刷题
 
-#### 算法复杂度讲解 
+### 算法复杂度讲解 
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 - https://zhuanlan.zhihu.com/p/248284657
@@ -75,67 +75,10 @@ import math
 print(math.log2(10 ** 5)) # 16.609640474436812
 ```
 
+## 高级数据结构总结
+https://www.yuque.com/hakusai/gyb5dn/ntylqxpxvl7hxvgx
 
-#### 基础数据结果
-- [链表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Linked_List](Goland_Python3_Algorithm/Data_Structure/Linked_List)
-- [位运算 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Bit_Operations/位运算.md](Goland_Python3_Algorithm/Data_Structure/Bit_Operations/位运算.md)
-- [哈希表 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Hash_Table](Goland_Python3_Algorithm/Data_Structure/Hash_Table)
-- [递归 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Recursio](Goland_Python3_Algorithm/Data_Structure/Recursion)
-- [贪心 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Greedy](Goland_Python3_Algorithm/Data_Structure/Greedy)
-- [排序 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sorting](Goland_Python3_Algorithm/Data_Structure/Sorting)
-- [字符串 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Strings](Goland_Python3_Algorithm/Data_Structure/Strings)
-- [双指针算法 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Two_Pointer](Goland_Python3_Algorithm/Data_Structure/Pointer)
-- [滑动窗口 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Sliding_Window](Goland_Python3_Algorithm/Data_Structure/Sliding_Window)
-- [栈&&单调栈 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Stack](Goland_Python3_Algorithm/Data_Structure/Stack)
-- [队列&&单调队列 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Queue](Goland_Python3_Algorithm/Data_Structure/Queue)
-- [大根堆&&小根堆 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Heap/堆.md](Goland_Python3_Algorithm/Data_Structure/Heap/堆.md)
-- [二叉树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Tree](Goland_Python3_Algorithm/Data_Structure/Binary_Tree)
-- [二分搜索 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Binary_Search/二分查找.md](Goland_Python3_Algorithm/Data_Structure/Binary_Search/二分查找.md)
-- [前缀和&&差分数组 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md](Goland_Python3_Algorithm/Data_Structure/Prefix_Sum/前缀和.md)
-- [字典树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Prefix_Sum/前缀和.md](Goland_Python3_Algorithm/Data_Structure/Trie_Tree)
-- [并查集 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Union_Find/并查集.md](Goland_Python3_Algorithm/Data_Structure/Union_Find/并查集.md)
-- [树状数组 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Fenwick_Tree](Goland_Python3_Algorithm/Data_Structure/Fenwick_Tree)
-- [线段树 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Segment_Tree/线段树.md](Goland_Python3_Algorithm/Data_Structure/Segment_Tree/线段树.md)
-- [区间操作 ->Algorithm/Algorithm_Questions_By_Tags/Data_Structure/Interval_Merging](Goland_Python3_Algorithm/Data_Structure/Interval_Merging)
-
-
-#### 动态规划
-- [记忆化搜索 ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Memory_Search)
-- [线性DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Linear_DP)
-- [背包DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Backpack_DP)
-- [状压DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/State_Compression_DP)
-- [区间DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Interval_DP)
-- [计数DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Count_DP)
-- [树形DP ->Algorithm/Algorithm_Questions_By_Tags/Dynamic_Programming/Memory_Search](Goland_Python3_Algorithm/Data_Structure/Dynamic_Programming/Tree_Shape_DP)
-
-#### 搜索
-- [DFS]()
-- [BFS]()
-- [双向搜索]()
-- [回溯]()
-- [A*]()
-
-#### 图论
-- [DFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/DFS](Goland_Python3_Algorithm/Data_Structure/Graph/DFS)
-- [BFS图论 ->Algorithm/Algorithm_Questions_By_Tags/Graph/BFS](Goland_Python3_Algorithm/Data_Structure/Graph/BFS)
-- [拓扑排序 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Topological_Sorting](Goland_Python3_Algorithm/Data_Structure/Graph/Topological_Sorting)
-- [最小生成树]
-  - [Kruskal算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Kruskal](Goland_Python3_Algorithm/Data_Structure/Graph/Kruskal)
-  - [Prim算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Prim](Goland_Python3_Algorithm/Data_Structure/Graph/Prim)
-- [最短路]
-  - [Floyd算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Floyd](Goland_Python3_Algorithm/Data_Structure/Graph/Floyd)
-  - [Bellman–Ford算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Bellman_Ford](Goland_Python3_Algorithm/Data_Structure/Graph/Bellman_Ford)
-  - [Dijkstra算法 ->Algorithm/Algorithm_Questions_By_Tags/Graph/Dijkstra](Goland_Python3_Algorithm/Data_Structure/Graph/Dijkstra)
-
-#### 数学
-- [约数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Goland_Python3_Algorithm/Data_Structure/Mathematical_Knowledge/Divisor)
-- [质数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Goland_Python3_Algorithm/Data_Structure/Mathematical_Knowledge/Prime_Number)
-- [快速幂 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Goland_Python3_Algorithm/Data_Structure/Mathematical_Knowledge/Fast_Exponentiation)
-- [组合数 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Goland_Python3_Algorithm/Data_Structure/Mathematical_Knowledge/Combinations)
-- [容斥原理 ->Algorithm/Algorithm_Questions_By_Tags/Mathematical_Knowledge/Divisor](Goland_Python3_Algorithm/Data_Structure/Mathematical_Knowledge/Inclusion_Exclusion_Principle)
-
-
-### Go 项目运行命令
+## Go 项目编译运行命令
 ```bash
 go mod init	生成 go.mod 文件
 go mod download	下载 go.mod 文件中指明的所有依赖
@@ -145,4 +88,11 @@ go mod edit	编辑 go.mod 文件
 go mod vendor	导出项目所有的依赖到vendor目录
 go mod verify	校验一个模块是否被篡改过
 go mod why	查看为什么需要依赖某模块
+```
+
+## Python3 项目编译运行命令
+```bash
+pip3 freeze > requirements.txt   
+
+pip3  install -r requirements.txt
 ```
