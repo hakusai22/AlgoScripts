@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	_ "net/http"
 )
 
 // 包内初始化顺序，全局变量-->init()-->基础用法()
@@ -9,18 +10,32 @@ func init() {
 	fmt.Println("package 基础用法.init()函数被执行")
 }
 
-func main() {
-	////知识点1：在Go中，函数也是一种数据类型，可以将函数赋值给一个变量，该变量就是一个函数类型的变量了。通过该变量可以实现对函数的调用
-	//test1()
+type Client struct {
+}
 
-	////知识点2：函数可以作为实参传入
-	//test2()
+// 函数
+func hello(c *Client) {
+
+}
+
+// 方法
+func (c *Client) hello() {
+
+}
+
+func main() {
+	////知识点1：在Go中，函数也是一种数据类型，可以将函数赋值给一个变量，
+	// 该变量就是一个函数类型的变量了。通过该变量可以实现对函数的调用
+	test1()
+
+	////知识点2：函数可以作为实参传入 -> 回调函数
+	test2()
 
 	////知识点3：Go支持对函数返回值命名
-	//test3()
+	test3()
 
 	////知识点4：GO函数支持可变参数
-	//test4()
+	test4()
 
 	////知识点5：测试函数执行顺序
 	//testExecuteOrder.GetInfo()
