@@ -27,7 +27,7 @@ func main() {
 	fmt.Printf("%08b\n", x&^y) // "00100000", the difference {5}
 
 	for i := uint(0); i < 8; i++ {
-		if x&(1<<i) != 0 { // membership test
+		if x&(1<<i) != 0 { // membership testWaitGroup
 			fmt.Println(i) // "1", "5"
 		}
 	}

@@ -34,7 +34,7 @@ func sum(n1 int, n2 int) int {
 }
 
 func test() {
-	fmt.Println("test()") // 执行顺序4. res= 32
+	fmt.Println("testWaitGroup()") // 执行顺序4. res= 32
 }
 
 func case_1() int {
