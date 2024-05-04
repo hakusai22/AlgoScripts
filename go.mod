@@ -17,10 +17,14 @@ require (
 	go.uber.org/zap v1.25.0
 )
 
-require github.com/IBM/sarama v1.41.1
+require (
+	github.com/IBM/sarama v1.41.1
+	github.com/cloudwego/netpoll v0.6.0
+)
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
+	github.com/bytedance/gopkg v0.0.0-20220413063733-65bf48ffb3a7 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
