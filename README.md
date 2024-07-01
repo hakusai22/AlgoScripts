@@ -4,21 +4,29 @@ Go_Python_Study 学习记录
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-![GitHub top language](https://img.shields.io/github/languages/top/hakusai22/Go_Python_Study?style=for-the-badge)
+<!-- PROJECT SHIELDS -->
+
+<a href="https://github.com/hakusai22/Go_Python_Study/">
+    <img src="https://img.shields.io/github/contributors/hakusai22/Go_Python_Study" >
+</a>
+&nbsp;
+<a href="https://github.com/hakusai22/Go_Python_Study/">
+    <img src="https://img.shields.io/github/forks/hakusai22/Go_Python_Study" >
+</a>
+&nbsp;
+<a href="https://github.com/hakusai22/Go_Python_Study/">
+    <img src="https://img.shields.io/github/stars/hakusai22/Go_Python_Study" >
+</a>
 
 <!-- PROJECT LOGO -->
 <br />
 
-
+> 个人公司开发是Java后端, 这个项目记录Python3(脚本/算法)和Golang(性能/开源项目趋势)的学习记录, 记录一些基础数据结构和语法特性的使用。
 
 <p align="center">
     <a href="https://github.com/hakusai22/Go_Python_Study/">
     </a>
-    <h3 align="center">Go_Python 算法学习笔记 🔞</h3>
+    <h3 align="center">Go_Python 学习笔记 🐙</h3>
   <p align="center">
     ·
     <a href="https://github.com/hakusai22/Go_Python_Study/issues">报告Bug</a>
