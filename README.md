@@ -1,10 +1,7 @@
 # Go_Python_Study
 
-Go_Python_Study 学习记录
-
 <!-- PROJECT SHIELDS -->
 
-<!-- PROJECT SHIELDS -->
 
 <a href="https://github.com/hakusai22/Go_Python_Study/">
     <img src="https://img.shields.io/github/contributors/hakusai22/Go_Python_Study" >
@@ -20,60 +17,28 @@ Go_Python_Study 学习记录
 
 <!-- PROJECT LOGO -->
 <br />
-<br />
 
-> 个人公司开发是Java后端, 这个项目记录Python3(脚本/算法)和Golang(性能/开源项目趋势)的学习记录, 记录一些基础数据结构和语法特性的使用。
+### Documentation
 
-<p align="center">
-    <a href="https://github.com/hakusai22/Go_Python_Study/">
-    </a>
-    <h3 align="center">Go_Python 学习笔记 🐙</h3>
-  <p align="center">
-    ·
-    <a href="https://github.com/hakusai22/Go_Python_Study/issues">报告Bug</a>
-    ·
-    <a href="https://github.com/hakusai22/Go_Python_Study/issues">提出新特性</a>
-  </p>
+- ⭐ [Python3 刷题总结](./Python3_README.md)
+- ⭐ [Golang 刷题总结](./Go_README.md)
+
+> 个人公司业务开发主要是Java后端(SpringBoot3.0+GRPC), Java相对于python3 写的代码看起来没有python那么优雅和使用的流畅 天天写Java 看着都烦😡 
+>
+> Python的话 公司内部数据平台使用Django开发,当时2022校招进来 python连数据结构都写不明白 pip是什么 安装依赖也不会 都是当时带我的mentor导师手把手教我 现在回想起来当时是真的菜啊,
+> 后面就不断的去补python相关的知识点,在Acwing平台用Python3刷算法题 熟悉数据结构的使用,后面刷leetcode和打周赛都是使用python3, 真的是语法简洁 `人生苦短 python是岸`, 在日常工作中也是写各种脚本出来数据(sql/excel/redis/elastisearch等等)
+> 当然我们软件研发部门还会举办算法比赛 2022年第一次用Java写/当时python3不熟(三等奖) 2023年第二次组队Python3写(二等奖) 只能说我们研发部门挺开放的, 连测试OKR都是每周刷一道Leetcode题目。
+> 到现在的ai 自动帮你写脚本 自己从0->1写的比较少了 直接在生成的代码上稍微修改下就能用了。
+> 
+> Golang 第一次接触还是2022年大四的时候参加线上的第二届字节青训营 做了一个douyin_demo的项目, 当时认识了一群人, 自己没有坚持下去, 加上周围朋友的影响 基本都是Golang 中间也是断断续续的学习 进步的速度特别慢 交流的圈子也没有
+> 在2024年 上半年 才开始关注Cloudwego社区 去看kitex和hertz相关的项目 也去go-grpc/go-redis 相关项目 提交一些简单的pr 还是学习的时间安排的太少 没有深入去理解 现在开始全力以赴🌟🌟🌟
+> 这个项目记录Python3(算法/脚本库)和Golang(算法/性能/开源项目)的学习记录, 记录一些基础数据结构和语法特性的使用。
 
 
 <img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study/al.png"/>
-<img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study/code_language.png"/>
-
-<!-- links -->
-
-[your-project-path]:hakusai22/Go_Python_Study
-
-[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/Go_Python_Study.svg?style=for-the-badge
-
-[contributors-url]: https://github.com/hakusai22/Go_Python_Study/graphs/contributors
-
-[forks-shield]: https://img.shields.io/github/forks/hakusai22/Go_Python_Study.svg?style=for-the-badge
-
-[forks-url]: https://github.com/hakusai22/Go_Python_Study/network/members
-
-[stars-shield]: https://img.shields.io/github/stars/hakusai22/Go_Python_Study.svg?style=for-the-badge
-
-[stars-url]: https://github.com/hakusai22/Go_Python_Study/stargazers
-
-[issues-shield]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg?style=for-the-badge
-
-[issues-url]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg
-
-[license-shield]: https://img.shields.io/github/license/hakusai22/Go_Python_Study.svg?style=for-the-badge
-
-[license-url]: https://github.com/hakusai22/Go_Python_Study/blob/master/LICENSE
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
-[linkedin-url]: https://linkedin.com/in/xxxx
 
 
-## [Python3 刷题总结](./Python3_README.md)
-## [GO 刷题总结](./Go_README.md)
-
-## 分类型刷题
-
-### 算法复杂度讲解 
+### 算法复杂度讲解
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 - https://zhuanlan.zhihu.com/p/248284657
@@ -105,3 +70,37 @@ pip3 freeze > requirements.txt
 
 pip3  install -r requirements.txt
 ```
+
+## star 趋势图
+
+![Stargazers over time](https://starchart.cc/hakusai22/Go_Python_Study.svg)
+
+<!-- links -->
+
+[your-project-path]:hakusai22/Go_Python_Study
+
+[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/Go_Python_Study.svg?style=for-the-badge
+
+[contributors-url]: https://github.com/hakusai22/Go_Python_Study/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/hakusai22/Go_Python_Study.svg?style=for-the-badge
+
+[forks-url]: https://github.com/hakusai22/Go_Python_Study/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/hakusai22/Go_Python_Study.svg?style=for-the-badge
+
+[stars-url]: https://github.com/hakusai22/Go_Python_Study/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg?style=for-the-badge
+
+[issues-url]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg
+
+[license-shield]: https://img.shields.io/github/license/hakusai22/Go_Python_Study.svg?style=for-the-badge
+
+[license-url]: https://github.com/hakusai22/Go_Python_Study/blob/master/LICENSE
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+
+[linkedin-url]: https://linkedin.com/in/xxxx
+
+
