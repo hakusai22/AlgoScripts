@@ -1,4 +1,4 @@
-package main
+package _1_array
 
 /*
    -*- coding: utf-8 -*-
@@ -8,13 +8,15 @@ package main
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestArrayTwo(t *testing.T) {
+	main4()
+}
 
-	//演示二维数组的遍历
+func main4() {
 	var arr3 = [2][3]int{{1, 2, 3}, {4, 5, 6}}
-
 	//for循环来遍历
 	for i := 0; i < len(arr3); i++ {
 		for j := 0; j < len(arr3[i]); j++ {

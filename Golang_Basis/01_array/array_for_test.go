@@ -1,6 +1,9 @@
-package main
+package _1_array
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
    -*- coding: utf-8 -*-
@@ -8,7 +11,11 @@ import "fmt"
    @Time    : 2023/08/13 23:19
 */
 
-func main() {
+func TestFor(t *testing.T) {
+	main3()
+}
+
+func main3() {
 	heroes := [...]string{"宋江", "吴用", "卢俊义"}
 
 	//使用常规的方式遍历

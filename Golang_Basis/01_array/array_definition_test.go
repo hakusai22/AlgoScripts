@@ -1,4 +1,4 @@
-package main
+package _1_array
 
 /*
    -*- coding: utf-8 -*-
@@ -8,12 +8,16 @@ package main
 
 import (
 	"fmt"
+	"testing"
 )
 
-// Go的数组属值类型， 在默认情况下是值传递
-func main() {
+func TestName(t *testing.T) {
+	main2()
+}
 
-	var intArr [3]int   //int占8个字节
+// Go的数组属值类型， 在默认情况下是值传递
+func main2() {
+	var intArr [10]int  //int占8个字节
 	fmt.Println(intArr) //当我们定义完数组后，其实数组的各个元素有默认值 0
 
 	intArr[0] = 10
@@ -41,7 +45,7 @@ func main() {
 	strArr05 := [...]string{1: "tom", 0: "jack", 2: "mary"}
 	fmt.Println("strArr05=", strArr05)
 
-	//GO中 数组是值类型
+	//GO 中 数组是值类型
 	arr := [3]int{11, 22, 33}
 	fmt.Printf("arr的地址=%p \n", &arr)
 	test01(arr)
@@ -56,6 +60,7 @@ func test01(arr [3]int) {
 	(arr)[0] = 88
 }
 
+// 地址传递
 func test02(arr *[3]int) {
 	fmt.Printf("arr指针的地址=%p \n", &arr)
 	(*arr)[0] = 88
