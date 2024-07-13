@@ -39,36 +39,7 @@ uniform(x, y), pow(x, y)# 随机生成下一个实数，它在[x,y]范围内/ x*
 集合推倒式 {i ** 2 for i in (1, 2, 3)}  不可索引,不可切片,不可重复元素
 '''
 
-# 数值和字母进行转换 ord()函数是把字符转换成ASCII码 chr()函数是把ASCII码转换成字符
-def alp(i):
-    return chr(ord('a') + i % 26)  # i=0->'a', i=25->'z'
 
-# lcm 最小公倍数 gcd 最大公约数
-def lcm(x, y):
-    return x * y // gcd(x, y)
-
-# 快速幂
-def qpow(x, y):
-    ans = 1
-    while y:
-        if y & 1:
-            ans *= x
-        x *= x
-        y >>= 1
-    return ans
-
-# 求组合数
-def Comb(n, m, p):
-    a = (factorial(n)) % p
-    b = (qpow(factorial(m), (p - 2), p)) % p
-    c = (qpow(factorial(n - m), (p - 2), p)) % p
-    return a * b * c % p
-
-# lucas求组合数
-def Lucas(n, m, p):
-    if m == 0:
-        return 1
-    return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
 # --idea 
 # -*- coding: utf-8 -*-
