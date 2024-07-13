@@ -3,8 +3,8 @@ package _024_07
 /*
 @Author  : https://github.com/hakusai22
 @Time    : 2024/07/13 17:57
-@题目     :
-@参考     :
+@题目     : https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/description/?envType=daily-question&envId=2024-07-10
+@参考     : https://leetcode.cn/problems/count-the-number-of-incremovable-subarrays-i/solutions/2577665/shuang-zhi-zhen-on-shi-jian-o1-kong-jian-3fl2/?envType=daily-question&envId=2024-07-10
 @时间复杂度:
 */
 func incremovableSubarrayCount(nums []int) int {
