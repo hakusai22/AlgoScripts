@@ -1,4 +1,4 @@
-## Python3 刷算法
+## Python3 刷题总结
 
 - 常用内置数据类型：list, tuple, dict, set, frozenset
 - collections 模块：Counter(计数器), deque(双端队列), OrderedDict(有序字典)，defaultdict(默认值字典)
