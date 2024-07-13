@@ -1,8 +1,9 @@
-package main
+package _09_map
 
 import (
 	"fmt"
 	"sort"
+	"testing"
 )
 
 /*
@@ -11,8 +12,12 @@ import (
    @Time    : 2023/08/13 23:34
 */
 
+func TestSort(t *testing.T) {
+	main6()
+}
+
 // map是无序的
-func main() {
+func main6() {
 
 	//map的排序
 	map1 := make(map[int]int, 10)

@@ -1,4 +1,4 @@
-package slice
+package _09_map
 
 /*
    -*- coding: utf-8 -*-
@@ -8,9 +8,14 @@ package slice
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestSlice(t *testing.T) {
+	main5()
+}
+
+func main5() {
 
 	//要求：使用一个map来记录monster的信息 name 和 age, 也就是说一个monster对应一个map,并且妖怪的个数可以动态的增加=>map切片
 	//1. 声明一个map切片

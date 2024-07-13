@@ -1,11 +1,16 @@
-package main
+package _09_map
 
 import (
 	"fmt"
 	"sort"
+	"testing"
 )
 
-func main() {
+func TestCase(t *testing.T) {
+	main1()
+}
+
+func main1() {
 	case_1()
 	case_2()
 	case_3()

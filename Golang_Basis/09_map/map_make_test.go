@@ -1,6 +1,9 @@
-package main
+package _09_map
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
    --idea
@@ -9,7 +12,11 @@ import "fmt"
    @Time    : 2023/12/21 22:04
 */
 
-func main() {
+func TestName(t *testing.T) {
+	main4()
+}
+
+func main4() {
 	m1 := make(map[int]int)
 	mdMap1(m1)
 	fmt.Println(m1)

@@ -1,4 +1,4 @@
-package main
+package _09_map
 
 /*
    -*- coding: utf-8 -*-
@@ -8,9 +8,14 @@ package main
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestFor(t *testing.T) {
+	main2()
+}
+
+func main2() {
 
 	//使用for-range遍历map
 	cities := make(map[string]string)

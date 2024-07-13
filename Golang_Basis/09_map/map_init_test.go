@@ -1,4 +1,4 @@
-package main
+package _09_map
 
 /*
    -*- coding: utf-8 -*-
@@ -8,9 +8,14 @@ package main
 
 import (
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestInit(t *testing.T) {
+	main3()
+}
+
+func main3() {
 	//第一种方式
 	var a map[string]string
 	//在使用map前，需要先make , make的作用就是给map分配数据空间
