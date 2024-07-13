@@ -1,4 +1,4 @@
-package main
+package _05_function
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 */
 
 func TestName(t *testing.T) {
-	main()
+	main2()
 }
 
 /* 定义相互交换值的函数 */
@@ -34,7 +34,7 @@ func swap2(x *int, y *int) {
 	*y = temp /* 将 temp 值赋给 y */
 }
 
-func main() {
+func main2() {
 	var a int = 100
 	var b int = 200
 	fmt.Printf("a: %d", a)

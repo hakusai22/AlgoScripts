@@ -1,4 +1,4 @@
-package main
+package _7_string
 
 /*
    -*- coding: utf-8 -*-
@@ -6,9 +6,16 @@ package main
    @Time    : 2023/08/28 17:06
 */
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestName(t *testing.T) {
+	main1()
+}
+
+func main1() {
 	fmt.Println("go-algorithm", len("go-algorithm"))
 	fmt.Println("go算法", len("go算法"))
 

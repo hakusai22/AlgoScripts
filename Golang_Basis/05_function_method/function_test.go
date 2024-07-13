@@ -1,4 +1,4 @@
-package main_test
+package _05_function
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestName(t *testing.T) {
+func TestName2(t *testing.T) {
 	main()
 }
 
@@ -127,8 +127,4 @@ func test6() {
 	}
 	res = MyFunc(3, 5)
 	fmt.Println("res=", res)
-}
-
-func swap(x, y string) (string, string) {
-	return y, x
 }
