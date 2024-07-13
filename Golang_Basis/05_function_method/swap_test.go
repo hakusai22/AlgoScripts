@@ -1,12 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 /*
    -*- coding: utf-8 -*-
    @Author  : hakusai22
    @Time    : 2023/09/05 23:58
 */
+
+func TestName(t *testing.T) {
+	main()
+}
 
 /* 定义相互交换值的函数 */
 func swap(x, y int) int {

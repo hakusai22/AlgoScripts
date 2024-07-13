@@ -1,9 +1,14 @@
-package main
+package main_test
 
 import (
 	"fmt"
 	_ "net/http"
+	"testing"
 )
+
+func TestName(t *testing.T) {
+	main()
+}
 
 // 包内初始化顺序，全局变量-->init()-->基础用法()
 func init() {
