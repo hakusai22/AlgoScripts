@@ -41,9 +41,9 @@ func test1() {
 }
 
 // 用闭包实现累加器
-// 解释：1.AddUpper是一个函数，返回的数据类型是匿名函数  05_function_method(int) int 即闭包
+// 解释：1.AddUpper是一个函数，返回的数据类型是匿名函数  05_function(int) int 即闭包
 //
-//	2.返回的匿名函数 05_function_method(x int) int 和 其引用的函数外的变量n 构成闭包
+//	2.返回的匿名函数 05_function(x int) int 和 其引用的函数外的变量n 构成闭包
 //	3.可以将理解为：闭包-->类  变量n-->字段  匿名函数-->操作
 //	4.反复调用f函数时，因为n只初始化一次，所以每次调用都会进行累加
 func AddUpper() func(int) int {
