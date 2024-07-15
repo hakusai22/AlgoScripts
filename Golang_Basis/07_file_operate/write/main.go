@@ -28,7 +28,6 @@ func test01() {
 	}
 
 	//当函数退出时，要及时的关闭file，否则会有内存泄漏
-	defer file.Close()
 
 	// 创建一个 *Reader ,默认的缓冲区为4096 适用于大文件
 	reader := bufio.NewReader(file)

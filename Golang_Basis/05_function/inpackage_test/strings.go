@@ -37,7 +37,7 @@ func main() {
 
 	//字符串的切割
 	s4 := strings.Split(s3, "_")
-	fmt.Println(s4) // 返回切片[]string{"123n","abc","ss"}
+	fmt.Println(s4) // 返回切片[]string_test{"123n","abc","ss"}
 
 	//字符串的替换
 	s5 := "okoletsgo"

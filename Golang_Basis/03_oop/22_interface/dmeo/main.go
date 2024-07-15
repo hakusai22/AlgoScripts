@@ -30,7 +30,7 @@ func main() {
 func funcName(a interface{}) string {
 	value, ok := a.(string)
 	if !ok {
-		fmt.Println("not string")
+		fmt.Println("not string_test")
 		return ""
 	}
 	fmt.Println("value is", value)

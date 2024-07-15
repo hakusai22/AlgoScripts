@@ -81,7 +81,7 @@ func serialtestMap() []byte {
 
 // ----------------------------------------------对切片的序列化----------------------------------------------
 func serialtestSlice() []byte {
-	var slice []map[string]interface{} //切片 []map[string]interface{}
+	var slice []map[string]interface{} //切片 []map[string_test]interface{}
 	var m1 map[string]interface{}
 	m1 = make(map[string]interface{}) //使用map前，需要先make
 	m1["name"] = "jack"

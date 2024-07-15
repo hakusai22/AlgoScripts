@@ -28,12 +28,12 @@ map_test：键值对 无序
 */
 func case_1() {
 	//一：make创建一个map，再给其赋值
-	var map_a map[int]string = make(map[int]string) //也可以写成 map_a := make(map_test[int]string)
+	var map_a map[int]string = make(map[int]string) //也可以写成 map_a := make(map_test[int]string_test)
 	map_a[7] = "aaa"
 	map_a[8] = "bbb"
 	map_a[9] = "ccc"
 	//二:初始化 赋值 一体化
-	var map_b map[string]string = map[string]string{"七": "aaa", "八": "bbb", "九": "ccc"} //也可以写成 map_b := map_test[int]string{7:"aaa",8:"bbb",9:"ccc"}
+	var map_b map[string]string = map[string]string{"七": "aaa", "八": "bbb", "九": "ccc"} //也可以写成 map_b := map_test[int]string_test{7:"aaa",8:"bbb",9:"ccc"}
 	fmt.Print("map_a：", map_a, len(map_a), "\n", "map_b：", map_b, len(map_b))
 }
 
@@ -92,7 +92,7 @@ func case_4() {
 map的嵌套
 */
 func case_5() {
-	var myMap map[int]map[string]int = make(map[int]map[string]int) //初始化一个map，键是[int]，值是map[string]int
+	var myMap map[int]map[string]int = make(map[int]map[string]int) //初始化一个map，键是[int]，值是map[string_test]int
 	myMap[5] = make(map[string]int)                                 //每个键的值map也要初始化，初始化后才能添加元素
 	myMap[5]["我"] = 22                                              //添加元素时将myMap[1]看作一个map变量名，["我"]为键，22为值
 	myMap[5]["吾"] = 33
@@ -151,10 +151,10 @@ func case_7() {
 map切片
 */
 func case_8() {
-	var slice []map[string]string = make([]map[string]string, 2, 3) //创建一个map[string]string数据类型的切片
+	var slice []map[string]string = make([]map[string]string, 2, 3) //创建一个map[string_test]string数据类型的切片
 	//slice第一个元素
 	if slice[0] == nil { //先判断元素是否为nil，为nil就创建map元素
-		slice[0] = make(map[string]string) //创建切片的map[string]string元素，先创建才能赋值
+		slice[0] = make(map[string]string) //创建切片的map[string_test]string元素，先创建才能赋值
 	}
 	slice[0]["第一个map元素的第一个key"] = "第一个map元素的第一个value" //给第一个slice元素赋值，这里slice[0]相当于map的变量名
 	slice[0]["第一个map元素的第二个key"] = "第一个map元素的第二个value"

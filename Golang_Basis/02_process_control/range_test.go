@@ -15,7 +15,7 @@ import (
 
 func TestRange(t *testing.T) {
 	s := "abc"
-	// 忽略 2nd value，支持 string/array/slice/map。
+	// 忽略 2nd value，支持 string_test/array/slice/map。
 	for i := range s {
 		println(s[i])
 	}

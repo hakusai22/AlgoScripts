@@ -37,7 +37,7 @@ func main5() {
 
 	// 下面这个写法越界。
 	// if monsters[2] == nil {
-	// 	monsters[2] = make(map[string]string, 2)
+	// 	monsters[2] = make(map[string_test]string_test, 2)
 	// 	monsters[2]["name"] = "狐狸精"
 	// 	monsters[2]["age"] = "300"
 	// }

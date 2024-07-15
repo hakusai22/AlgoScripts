@@ -25,5 +25,5 @@ func main() {
 	bs := make([]byte, 2000*1024)    // 缓存
 	sc.Buffer(bs, len(bs))
 	sc.Scan()              // Scan 方法 该方法好比 iterator 中的 Next 方法，默认ScanLines 返回一行文本，不包括行尾的换行符
-	fmt.Println(sc.Text()) // 该方法应该在 Scan 调用后调用.Text 返回的是 string
+	fmt.Println(sc.Text()) // 该方法应该在 Scan 调用后调用.Text 返回的是 string_test
 }

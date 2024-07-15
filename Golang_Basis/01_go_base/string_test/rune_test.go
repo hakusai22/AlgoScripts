@@ -1,4 +1,4 @@
-package string_test
+package string_test_test
 
 /*
    -*- coding: utf-8 -*-

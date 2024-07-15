@@ -5,7 +5,7 @@
  * @Description:
  */
 
-package string_test
+package string_test_test
 
 import (
 	"fmt"
@@ -75,7 +75,7 @@ func case_3() {
 /*
 *
 切片转字符串
-str := string()函数将切片转为字符串，括号里写要转为字符串的切片，切片的数据类型为byte
+str := string_test()函数将切片转为字符串，括号里写要转为字符串的切片，切片的数据类型为byte
 切片元素为十进制UTF-8表的整数，转换后的字符串为UTF-8表整数对应的字符
 */
 func case_4() {

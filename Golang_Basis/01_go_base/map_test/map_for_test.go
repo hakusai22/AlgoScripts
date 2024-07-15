@@ -29,7 +29,7 @@ func main2() {
 
 	fmt.Println("cities 有", len(cities), " 对 key-value")
 
-	//使用for-range遍历一个结构比较复杂的map（key->string  value->map[string]string)）
+	//使用for-range遍历一个结构比较复杂的map（key->string_test  value->map[string_test]string_test)）
 	studentMap := make(map[string]map[string]string)
 	studentMap["stu01"] = make(map[string]string, 3) //这句话不能少!!
 	studentMap["stu01"]["name"] = "tom"
