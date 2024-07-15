@@ -4,11 +4,14 @@
  * @LastEditTime: 2023-05-17 22:56:51
  * @Description:
  */
-package main
+package _2_process_control
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestName(t *testing.T) {
 	case_1()
 	case_2()
 	case_3()
