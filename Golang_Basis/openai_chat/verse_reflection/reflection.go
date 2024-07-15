@@ -43,7 +43,7 @@ func main() {
 	}
 
 	// 保存修改后的Excel文件
-	err = file.Save("./Golang_Basis/openai_chat/verse_reflection/daily_verse3.xlsx")
+	err = file.Save("./Golang_Basis/openai_chat/verse_reflection/daily_verse4.xlsx")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -57,7 +57,7 @@ func rewriteWithOpenAI(text string) string {
 	resp, _ := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
-			Model: openai.GPT3Dot5Turbo0125,
+			Model: openai.GPT4o,
 			Messages: []openai.ChatCompletionMessage{
 				{
 					Role:    openai.ChatMessageRoleSystem,
