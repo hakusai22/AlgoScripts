@@ -1,4 +1,4 @@
-package _1_array
+package array_test
 
 import (
 	"fmt"

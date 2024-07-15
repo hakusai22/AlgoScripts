@@ -1,4 +1,4 @@
-package _8_slice
+package slice_test
 
 import "fmt"
 

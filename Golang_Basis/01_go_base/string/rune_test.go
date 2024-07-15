@@ -1,4 +1,4 @@
-package _7_string
+package string_test
 
 /*
    -*- coding: utf-8 -*-
@@ -29,6 +29,7 @@ func main1() {
 	fmt.Println([]rune(str))
 	fmt.Println([]byte(str))
 
+	fmt.Println("---------------")
 	res := []rune(str)
 	for _, re := range res {
 		fmt.Println(string(re))
