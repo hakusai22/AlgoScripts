@@ -54,6 +54,7 @@ func rewriteWithOpenAI(text string) string {
 	fmt.Println(token)
 	client := openai.NewClient(token)
 
+	content := ", create a reflection, Do not display the original scripture content"
 	resp, _ := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
@@ -65,7 +66,7 @@ func rewriteWithOpenAI(text string) string {
 				},
 				{
 					Role:    openai.ChatMessageRoleUser,
-					Content: text,
+					Content: text + content,
 				},
 			},
 		},

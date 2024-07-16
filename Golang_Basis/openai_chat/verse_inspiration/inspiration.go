@@ -43,7 +43,7 @@ func main() {
 	}
 
 	// 保存修改后的Excel文件
-	err = file.Save("./Golang_Basis/openai_chat/verse_inspiration/daily_verse5.xlsx")
+	err = file.Save("./Golang_Basis/openai_chat/verse_inspiration/daily_verse4.xlsx")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -53,6 +53,7 @@ func rewriteWithOpenAI(text string) string {
 	token := os.Getenv("OPENAI_TOKEN")
 	fmt.Println(token)
 	client := openai.NewClient(token)
+	content := ", Do not bring the original text of the verse."
 
 	resp, _ := client.CreateChatCompletion(
 		context.Background(),
@@ -65,7 +66,7 @@ func rewriteWithOpenAI(text string) string {
 				},
 				{
 					Role:    openai.ChatMessageRoleUser,
-					Content: text,
+					Content: text + content,
 				},
 			},
 		},

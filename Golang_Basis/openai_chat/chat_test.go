@@ -32,7 +32,7 @@ func TestName(t *testing.T) {
 				},
 				{
 					Role:    openai.ChatMessageRoleUser,
-					Content: "Amos 5:24",
+					Content: "Psalm 46:5, create a inspiration, Do not bring the original text of the verse.",
 				},
 			},
 		},
