@@ -30,7 +30,7 @@ alps = 'abcdefghijklmnopqrstuvwxyz'
 
 class Solution:
     def numberOfSets(self, n: int, maxDistance: int, roads: List[List[int]]) -> int:
-        g = [[inf] * n for _ in range(n)]
+        g = [[inf] * n for _ in range(n)] # 邻接矩阵
         for x, y, wt in roads:
             g[x][y] = min(g[x][y], wt)
             g[y][x] = min(g[y][x], wt)
