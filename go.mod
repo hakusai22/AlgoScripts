@@ -9,8 +9,11 @@ go 1.21
 require github.com/emirpasic/gods v1.18.1
 
 require (
+	github.com/aws/aws-sdk-go v1.54.20
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.3
 	github.com/sashabaranov/go-openai v1.26.3
 	github.com/tealeg/xlsx v1.0.5
 )
+
+require github.com/jmespath/go-jmespath v0.4.0 // indirect
