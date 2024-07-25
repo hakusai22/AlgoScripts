@@ -32,12 +32,6 @@ alps = 'abcdefghijklmnopqrstuvwxyz'
 # 时间复杂度 :
 
 if __name__ == '__main__':
-    # 定义调用间隔（2分钟）
-    # interval = 90
-    # while True:
-    #     response = requests.get("https://api-staging.bongmi.com/v1/cbt_meditation/category/603517991?debug_env_ignore_auth=true&app_flag=4096&language=2&platform_type=2&app_version=1.3.0&ab_param=a&localTimezone=Asia/Shanghai")
-    #     print(response.status_code)
-    #     time.sleep(interval)
 
     print(0x56259e50c000 - 0x56259d78e000)
     print(0x7fa1d064e000 - 0x7fa1d063d000)
@@ -45,5 +39,6 @@ if __name__ == '__main__':
     print(0x7fa1d084f000 - 0x7fa1d084d000)
 
     print(0x56259df52000-0x56259d78e000)
+    print(0x00d94000-0x00d73000)
 
 
