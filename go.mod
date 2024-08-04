@@ -10,6 +10,8 @@ require github.com/emirpasic/gods v1.18.1
 
 require (
 	github.com/aws/aws-sdk-go v1.54.20
+	github.com/emersion/go-imap v1.2.1
+	github.com/emersion/go-message v0.18.1
 	github.com/emirpasic/gods/v2 v2.0.0-alpha
 	github.com/go-ego/gse v0.80.2
 	github.com/gorilla/mux v1.8.1
@@ -19,6 +21,8 @@ require (
 )
 
 require (
+	github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/vcaesar/cedar v0.20.1 // indirect
+	golang.org/x/text v0.14.0 // indirect
 )
