@@ -23,16 +23,22 @@ ALPS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alps = 'abcdefghijklmnopqrstuvwxyz'
 
 # @Author  : https://github.com/hakusai22
-# @Time    : 2024/08/01 14:45
+# @Time    : 2024/08/06 17:31
 # @题目     :
 # @参考     :  
 # 时间复杂度 :
 
+import pandas as pd
+
 if __name__ == '__main__':
-    print(str((0x560a2bd9a000 - 0x560a2baca000) / 1024 / 1024) + "MB")
-    print(str((0x7fa51d4a1000 - 0x7fa51c000000) / 1024 / 1024) + "MB")
-    print(str((0x7fa598000000 - 0x7fa591ad7000) / 1024 / 1024) + "MB")
-    print(str((0x7f1590000000 - 0x7f1589abd000) / 1024 / 1024) + "MB")
+    # 读取Excel文件
+    file_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/google.xlsx'
+    df = pd.read_excel(file_path)
+    # 去除 originalTransactionId 和 priceInUSD 都重复的行
+    df_unique = df.drop_duplicates(subset=['originalTransactionId', 'priceInUSD'])
+    # 将去重后的数据保存到一个新的Excel文件
+    output_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/google_output.xlsx'
+    df_unique.to_excel(output_path, index=False)
 
-
+    print(f"去重后的文件已保存到: {output_path}")
 
