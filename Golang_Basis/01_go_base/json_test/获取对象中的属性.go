@@ -15,9 +15,9 @@ type MyObject struct {
 
 func main() {
 	myObjects := []MyObject{
-		{ID: 1, Name: "Object 1", Value: 3.14},
-		{ID: 2, Name: "Object 2", Value: 6.28},
-		{ID: 3, Name: "Object 3", Value: 9.42},
+		{ID: 1, Name: "python_object 1", Value: 3.14},
+		{ID: 2, Name: "python_object 2", Value: 6.28},
+		{ID: 3, Name: "python_object 3", Value: 9.42},
 	}
 
 	IDs := Map(myObjects, func(obj MyObject) int {

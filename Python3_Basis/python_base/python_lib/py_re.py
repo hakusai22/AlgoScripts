@@ -11,7 +11,7 @@ if __name__ == '__main__':
     print(re.match(pat, s).group(0))
 
     # 与re.match()函数不同，re.search()函数会用正则表达式去匹配字符串中所有的子串，如果找到，返回第一个匹配对应的Match对象，否则返回None：
-    print(re.search(pat, s))  # <re.Match object; span=(3, 6), match='123'>
+    print(re.search(pat, s))  # <re.Match python_object; span=(3, 6), match='123'>
     print(re.search(pat, s).group(0))  # 123
 
     # re.split()使用指定的正则表达式作为分隔符，对字符串进行分割，其用法为

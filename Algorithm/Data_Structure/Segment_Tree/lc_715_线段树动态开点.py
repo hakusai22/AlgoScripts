@@ -21,7 +21,7 @@ class RangeModule:
         SegmentTree.update(self.st.root, 1, MAX_RANGE, left, right - 1, False)
 
 
-# Your RangeModule object will be instantiated and called as such:
+# Your RangeModule python_object will be instantiated and called as such:
 # obj = RangeModule()
 # obj.addRange(left,right)
 # param_2 = obj.queryRange(left,right)
