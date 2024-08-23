@@ -11,9 +11,9 @@ if __name__ == '__main__':
 
     # 查看Python搜索模块的系统路径，不同操作系统不同
     print(sys.path)
-    # / usr / bin / python3 / Users / yinpeng / PythonWorkSpace / Algorithm - study / py标准库 / py_sys.py
-    # ['/Users/yinpeng/PythonWorkSpace/Algorithm-study/py标准库/py_sys.py']
-    # ['/Users/yinpeng/PythonWorkSpace/Algorithm-study/py标准库', '/Users/yinpeng/PythonWorkSpace/Algorithm-study',
+    # / usr / bin / python3 / Users / yinpeng / PythonWorkSpace / Algorithm - study / python_lib / py_sys.py
+    # ['/Users/yinpeng/PythonWorkSpace/Algorithm-study/python_lib/py_sys.py']
+    # ['/Users/yinpeng/PythonWorkSpace/Algorithm-study/python_lib', '/Users/yinpeng/PythonWorkSpace/Algorithm-study',
     #  '/Users/yinpeng/PythonWorkSpace/Algorithm-study/leetcode周赛/leetcode周赛/第298场',
     #  '/Users/yinpeng/PythonWorkSpace/Algorithm-study/六月_区间求和', '/Users/yinpeng/PythonWorkSpace/Algorithm-study/src',
     #  '/Users/yinpeng/PythonWorkSpace/Algorithm-study/leetcode周赛',
