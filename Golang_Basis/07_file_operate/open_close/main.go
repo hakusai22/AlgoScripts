@@ -18,7 +18,7 @@ import (
 
 func main() {
 	//打开文件
-	file, err := os.Open("/Users/yinpeng/GoWorkSpace/Go_Study/Golang_Basis/07_file_operate/open_close/1.txt")
+	file, err := os.Open("/Users/yinpeng/GoWorkSpace/AlgoScripts/Golang_Basis/07_file_operate/open_close/1.txt")
 	if err != nil {
 		fmt.Println("open file err=", err)
 	}

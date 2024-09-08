@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Go_Study/Golang_Basis/04_network/webSocket/common"
+	"AlgoScripts/Golang_Basis/04_network/webSocket/common"
 	"fmt"
 	"github.com/gorilla/mux"
 	"net/http"

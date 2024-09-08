@@ -1,4 +1,4 @@
-module Go_Study
+module AlgoScripts
 
 //module: 用于定义当前项目的模块路径
 //go:标识当前Go版本.即初始化版本
