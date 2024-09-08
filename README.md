@@ -1,18 +1,18 @@
-# Go_Python_Study
+# AlgoScripts
 
 <!-- PROJECT SHIELDS -->
 
 
-<a href="https://github.com/hakusai22/Go_Python_Study/">
-    <img src="https://img.shields.io/github/contributors/hakusai22/Go_Python_Study" >
+<a href="https://github.com/hakusai22/AlgoScripts/">
+    <img src="https://img.shields.io/github/contributors/hakusai22/AlgoScripts" >
 </a>
 &nbsp;
-<a href="https://github.com/hakusai22/Go_Python_Study/">
-    <img src="https://img.shields.io/github/forks/hakusai22/Go_Python_Study" >
+<a href="https://github.com/hakusai22/AlgoScripts/">
+    <img src="https://img.shields.io/github/forks/hakusai22/AlgoScripts" >
 </a>
 &nbsp;
-<a href="https://github.com/hakusai22/Go_Python_Study/">
-    <img src="https://img.shields.io/github/stars/hakusai22/Go_Python_Study" >
+<a href="https://github.com/hakusai22/AlgoScripts/">
+    <img src="https://img.shields.io/github/stars/hakusai22/AlgoScripts" >
 </a>
 
 <!-- PROJECT LOGO -->
@@ -35,7 +35,7 @@
 > 这个项目记录Python3(算法/脚本库)和Golang(算法/性能/开源项目)的学习记录, 记录一些基础数据结构和语法特性的使用。
 
 
-<img src="https://fastly.jsdelivr.net/gh/hakusai22/Go_Python_Study/al.png"/>
+<img src="https://fastly.jsdelivr.net/gh/hakusai22/AlgoScripts/al.png"/>
 
 
 ### 算法复杂度讲解
@@ -73,31 +73,31 @@ pip3  install -r requirements.txt
 
 ## star 趋势图
 
-![Stargazers over time](https://starchart.cc/hakusai22/Go_Python_Study.svg)
+![Stargazers over time](https://starchart.cc/hakusai22/AlgoScripts.svg)
 
 <!-- links -->
 
-[your-project-path]:hakusai22/Go_Python_Study
+[your-project-path]:hakusai22/AlgoScripts
 
-[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/Go_Python_Study.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/hakusai22/AlgoScripts.svg?style=for-the-badge
 
-[contributors-url]: https://github.com/hakusai22/Go_Python_Study/graphs/contributors
+[contributors-url]: https://github.com/hakusai22/AlgoScripts/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/hakusai22/Go_Python_Study.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/hakusai22/AlgoScripts.svg?style=for-the-badge
 
-[forks-url]: https://github.com/hakusai22/Go_Python_Study/network/members
+[forks-url]: https://github.com/hakusai22/AlgoScripts/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/hakusai22/Go_Python_Study.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/hakusai22/AlgoScripts.svg?style=for-the-badge
 
-[stars-url]: https://github.com/hakusai22/Go_Python_Study/stargazers
+[stars-url]: https://github.com/hakusai22/AlgoScripts/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/hakusai22/AlgoScripts.svg?style=for-the-badge
 
-[issues-url]: https://img.shields.io/github/issues/hakusai22/Go_Python_Study.svg
+[issues-url]: https://img.shields.io/github/issues/hakusai22/AlgoScripts.svg
 
-[license-shield]: https://img.shields.io/github/license/hakusai22/Go_Python_Study.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/hakusai22/AlgoScripts.svg?style=for-the-badge
 
-[license-url]: https://github.com/hakusai22/Go_Python_Study/blob/master/LICENSE
+[license-url]: https://github.com/hakusai22/AlgoScripts/blob/master/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 

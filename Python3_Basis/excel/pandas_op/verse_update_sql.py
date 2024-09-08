@@ -32,7 +32,7 @@ import pandas as pd
 
 if __name__ == '__main__':
     # Load the Excel file
-    file_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/daily_verse.xlsx'
+    file_path = '/Users/yinpeng/GoWorkSpace/AlgoScripts/Python3_Basis/excel/daily_verse.xlsx'
     df_daily_verse = pd.read_excel(file_path, sheet_name='daily')
 
     # Generate SQL update statements
@@ -49,7 +49,7 @@ if __name__ == '__main__':
         sql_statements.append(sql)
 
     # Write the SQL statements to a file
-    output_file_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/update_statements.sql'
+    output_file_path = '/Users/yinpeng/GoWorkSpace/AlgoScripts/Python3_Basis/excel/update_statements.sql'
     with open(output_file_path, 'w') as file:
         for statement in sql_statements:
             file.write(statement + '\n')

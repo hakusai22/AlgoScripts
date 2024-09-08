@@ -32,12 +32,12 @@ import pandas as pd
 
 if __name__ == '__main__':
     # 读取Excel文件
-    file_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/google.xlsx'
+    file_path = '/Users/yinpeng/GoWorkSpace/AlgoScripts/Python3_Basis/excel/google.xlsx'
     df = pd.read_excel(file_path)
     # 去除 originalTransactionId 和 priceInUSD 都重复的行
     df_unique = df.drop_duplicates(subset=['originalTransactionId', 'priceInUSD'])
     # 将去重后的数据保存到一个新的Excel文件
-    output_path = '/Users/yinpeng/GoWorkSpace/Go_Python_Study/Python3_Basis/excel/google_output.xlsx'
+    output_path = '/Users/yinpeng/GoWorkSpace/AlgoScripts/Python3_Basis/excel/google_output.xlsx'
     df_unique.to_excel(output_path, index=False)
 
     print(f"去重后的文件已保存到: {output_path}")
