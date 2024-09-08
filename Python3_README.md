@@ -6,7 +6,7 @@
 - bisect: 二分查找
 - 矩阵。正确初始化一个不可变对象的二维数组：dp = [ [0]*col for _ in range(row) ]
 - 缓存。python3 的 functools 模块自带了 cache(等价于lru_cache(maxsize=None)) 和 lru_cache 装饰器，在一些需要递归记忆化搜索的时候会很方便
-  ![img.png](img.png)
+  ![img.png](images/img.png)
 
 ### python 递归暴栈(栈溢出)
 

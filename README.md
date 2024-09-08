@@ -46,12 +46,12 @@
 - 最近开始疯狂补前端知识点了，ts也是计划中的一部分。
 
 
-<img src="https://fastly.jsdelivr.net/gh/hakusai22/AlgoScripts/al.png"/>
-
+> 根据题目的时间/空间复杂度 推算使用的算法
+![al.png](images/al.png)
 
 ### 算法复杂度讲解
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img_1.png](images/img_1.png)
+![img_2.png](images/img_2.png)
 - https://zhuanlan.zhihu.com/p/248284657
 - https://pegasuswang.github.io/python_data_structures_and_algorithms/06_%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/big_o/
 - logN 计算
