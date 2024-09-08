@@ -3,6 +3,17 @@
  * @Author  : https://github.com/hakusai22
  */
 
+/*
+    TypeScript是由微软开发维护的JavaScript的超集，它在JavaScript的基础之上添加了静态类型的支持。
+    这意味着TypeScript可以在编译时发现并报告类型错误，而不是在运行时才发现。
+
+    typeScript 的优点
+        1.类型安全：TS的类型系统可以帮助开发者在编码阶段就发现并修复潜在的错误,提高代码的可靠性和稳定性。
+        2.更好的tooling支持：TS提供了更好的IDE支持，如代码补全、重构、跳转定义等功能，提高了开发效率。
+        3.更好的可维护性：TS的类型声明使得代码的结构和意图更加清晰，增强了可读性和可维护性，特别是在团队协作和大型项目中非常有优势。
+ */
+
+// https://juejin.cn/post/7358352353294106664
 export {}
 // 类型注解
 // 一、基本类型
@@ -234,3 +245,126 @@ let myTestObj: myObj = {
     1: 1,
     age: 18
 }
+
+// https://juejin.cn/post/7379060488351989770?searchId=20240908145340DBDD8B0CAD4F3EB2B797
+// 数组
+let numbers: number[] = [1, 2, 3, 4, 5, 6]
+let strings: Array<string> = ["one", "two", "three"]
+
+// 联合类型
+let numbers2: (number | string)[] = ["zero", 1, 2, 3, 4]
+let strings2: Array<string | number> = ["one", "two", "three", 4];
+let arr222: any = ["one", "two", "three", 4, true,];
+
+//元祖
+let person111: [string, number] = ["hakusai", 30]
+person = ["John", "thirty"]; // 报错：不能将类型"[string，string]"分配给类型"[string，number]"
+person = ["John"]; // 报错：不能将类型"[string]"分配给类型"[string，number]”。源具有1个元素，但目标需要2个
+
+// 枚举
+enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
+
+let move: Direction = Direction.Up;
+
+// 函数
+// 必需参数：默认情况下，TypeScript 中的函数参数都是必需的
+// 可选参数：在参数名的末尾使用 ? 标记，则可设置为可选参数
+// 剩余参数：在最后一个参数的参数名前使用 ... 以定义不定数量的参数
+function greet(name: string, greeting?: string): string {
+    return greeting ? `${greeting}, ${name}` : `Hello, ${name}`;
+}
+
+console.log(greet('John', 'Good morning')); // Good morning, John
+console.log(greet('John')); // Hello, John
+
+function sum(...numbers: number[]): number {
+    return numbers.reduce((acc, curr) => acc + curr, 0);
+}
+
+
+// 返回值
+function sayHello2(): void {
+    console.log("Hello!");
+}
+
+function multiply(a: number, b: number): number {
+    return a * b;
+}
+
+//接口
+// 接口（Interface） 是一种用于定义对象结构的方式，类似于结构体。它描述了对象的属性和方法，但不包含具体的实现。
+
+interface Person {
+    name: string;
+    age: number;
+
+    greet(): string;
+}
+
+let john: Person = {
+    name: "John",
+    age: 25,
+    greet: () => "Hello!"
+};
+
+// 接口还可以使用 extends 关键字 扩展（extend） 其他接口：
+interface Employee extends Person {
+    employeeId: number;
+}
+
+let jane: Employee = {
+    name: "Jane",
+    age: 30,
+    employeeId: 123,
+    greet: () => "Hi!"
+};
+
+
+// 类型别名
+// 使用 type 关键字定义，可以为任何类型创建一个新名称。类型别名可以用于基础类型、联合类型、元组等
+type StringOrNumber = string | number;
+
+let value: StringOrNumber;
+value = "Hello"; // 正确
+value = 123;     // 也正确
+
+// 类型别名也可以用于对象类型，达成和接口类似的效果
+type Point = {
+    x: number;
+    y: number;
+};
+
+let point22: Point = { x: 10, y: 20 };
+
+// 泛型
+function identity<T>(arg1: T, arg2: T): T {
+    return arg1;
+}
+
+let output1 = identity<string>("Hello", "world!");
+let output2 = identity<number>(123, 321);
+
+// 不仅在函数中，泛型也可以应用于接口和类：
+interface Box<T> {
+    contents: T;
+}
+
+let stringBox: Box<string> = { contents: "Hello" };
+let numberBox: Box<number> = { contents: 123 };
+
+class GenericNumber<T> {
+    zeroValue: T;
+    add: (x: T, y: T) => T;
+}
+
+let myGenericNumber = new GenericNumber<number>();
+myGenericNumber.zeroValue = 0;
+myGenericNumber.add = (x, y) => x + y;
+
+
+
