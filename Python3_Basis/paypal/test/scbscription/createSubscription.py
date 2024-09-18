@@ -26,7 +26,7 @@ if __name__ == '__main__':
                 "given_name": "yinpeng1",
                 "surname": "yinpeng2"
             },
-            "email_address": "yinpeng@lollitech.com",
+            "email_address": "yinpeng@163.com",
             "shipping_address": {
                 "name": {
                     "full_name": "yinpeng123"
