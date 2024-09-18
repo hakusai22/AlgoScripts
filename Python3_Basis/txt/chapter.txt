@@ -1,0 +1,90 @@
+Day1: Genesis 1-4
+Day2: Genesis 5-8
+Day3: Genesis 9-12
+Day4: Genesis 13-17
+Day5: Genesis 18-20
+Day6: Genesis 21-23
+Day7: Genesis 24-25
+Day8: Genesis 26-28
+Day9: Genesis 29-31
+Day10: Genesis 32-35
+Day11: Genesis 36-38
+Day12: Genesis 39-41
+Day13: Genesis 42-43
+Day14: Genesis 44-46
+Day15: Genesis 47-50
+Day16: Exodus 1-4
+Day17: Exodus 5-7
+Day18: Exodus 8-10
+Day19: Exodus 11-13
+Day20: Exodus 14-16
+Day21: Exodus 17-20
+Day22: Exodus 21-23
+Day23: Exodus 24-27
+Day24: Exodus 28-30
+Day25: Exodus 31-34
+Day26: Exodus 35-37
+Day27: Exodus 38-40
+Day28: Leviticus 1-4
+Day29: Leviticus 5-7
+Day30: Leviticus 8-10
+Day31: Leviticus 11-13
+Day32: Leviticus 14-15
+Day33: Leviticus 16-18
+Day34: Leviticus 19-21
+Day35: Leviticus 22-23
+Day36: Leviticus 24-25
+Day37: Leviticus 26-27
+Day38: Number 1-2
+Day39: Number 3-4
+Day40: Number 5-6
+Day41: Number 7
+Day42: Number 8-10
+Day43: Number 11-13
+Day44: Number 14-15
+Day45: Number 16-18
+Day46: Number 19-21
+Day47: Number 22-24
+Day48: Number 25-26
+Day49: Number 27-29
+Day50: Number 30-32
+Day51: Number 33-36
+Day52: Deuteronomy 1-2
+Day53: Deuteronomy 3-4
+Day54: Deuteronomy 5-8
+Day55: Deuteronomy 9-11
+Day56: Deuteronomy 12-15
+Day57: Deuteronomy 16-19
+Day58: Deuteronomy 20-22
+Day59: Deuteronomy 23-25
+Day60: Deuteronomy 26-27
+Day61: Deuteronomy 28-29
+Day62: Deuteronomy 30-32
+Day63: Deuteronomy 33-34
+Day64: Joshua 1-4
+Day65: Joshua 5-7
+Day66: Joshua 8-10
+Day67: Joshua 11-13
+Day68: Joshua 14-17
+Day69: Joshua 18-20
+Day70: Joshua 21-22
+Day71: Joshua 23-24
+Day72: Judges 1-3
+Day73: Judges 4-5
+Day74: Judges 6-8
+Day75: Judges 9-10
+Day76: Judges 11-13
+Day77: Judges 14-16
+Day78: Judges 17-19
+Day79: Judges 20-21
+Day80: Ruth 1-4
+Day81: 1 Samuel 1-3
+Day82: 1 Samuel 4-7
+Day83: 1 Samuel 8-12
+Day84: 1 Samuel 13-14
+Day85: 1 Samuel 15-16
+Day86: 1 Samuel 17-18
+Day87: 1 Samuel 19-21
+Day88: 1 Samuel 22-24
+Day89: 1 Samuel 25-27
+Day90: 1 Samuel 28-31

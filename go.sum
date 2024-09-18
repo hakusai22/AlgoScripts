@@ -1,3 +1,5 @@
+github.com/Microsoft/cognitive-services-speech-sdk-go v1.33.0 h1:xPYSgs3nGr5J9ucPfzItDTj2jpQkz5OUPZM4z//8xUg=
+github.com/Microsoft/cognitive-services-speech-sdk-go v1.33.0/go.mod h1:ct4bG95K1Lu/c5y60PVGI1XOjo9aAcl80DD5dvu6zsg=
 github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d h1:G0m3OIz70MZUWq3EgK3CesDbo8upS2Vm9/P3FtgI+Jk=
 github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d/go.mod h1:3eOhrUMpNV+6aFIbp5/iudMxNCF27Vw2OZgy4xEx0Fg=
 github.com/aws/aws-sdk-go v1.54.20 h1:FZ2UcXya7bUkvkpf7TaPmiL7EubK0go1nlXGLRwEsoo=

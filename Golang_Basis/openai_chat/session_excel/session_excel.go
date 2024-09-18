@@ -40,7 +40,7 @@ func transformData(input string) string {
 		return ""
 	}
 	bookAndChapter := strings.TrimSpace(parts[1])
-	if strings.Contains(input, "Samuel") {
+	if strings.Contains(input, "1 Samuel") {
 		bookParts := strings.Split(bookAndChapter, " ")
 		if len(bookParts) < 2 {
 			return ""

@@ -9,6 +9,7 @@ go 1.21
 require github.com/emirpasic/gods v1.18.1
 
 require (
+	github.com/Microsoft/cognitive-services-speech-sdk-go v1.33.0
 	github.com/aws/aws-sdk-go v1.54.20
 	github.com/emersion/go-imap v1.2.1
 	github.com/emersion/go-message v0.18.1
