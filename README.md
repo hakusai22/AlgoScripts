@@ -23,8 +23,25 @@
 - ⭐ [Python3 刷题总结](./Python3_README.md)
 - ⭐ [Golang 刷题总结](./Go_README.md)
 
-> 个人公司业务开发主要是Java后端(SpringBoot3.0+GRPC), Java相对于python3 写的代码看起来没有python那么优雅和使用的流畅 天天写Java 看着都烦😡
-> 可能大部分原因是因为每天干着重复的工作 也对Java逐渐失去了耐心/兴趣。
+> 个人公司业务开发主要是Java后端(SpringBoot3.0+GRPC), Java相对于python3 写的代码看起来没有python那么优雅和使用的流畅 天天写Java 看着都烦😡,应用层的代码编写，
+> 可替代性太强了，很像tcp四层模型，前端再应用层之上 应用层就是Java写业务代码  传输层的话 比如封装好的grpc开源项目 网络层和链路层 太底层了 接触不到 没什么理解，
+> 可能大部分原因是因为每天干着重复的工作, 组内其他人写的Java代码看起来也提不上兴趣, 也对Java逐渐失去了耐心/兴趣 能写当前公司业务就行了, 至于深入挖掘 后面再规划吧。
+> 现在业务天天需要刷数据 三种语言Java/python3/golang 来回切着写 怎么写着舒服怎么来 最近也是再看ts+react项目
+> 好像搞开源啊，留给我的时间不多了⛽️
+
+
+```shell
+go version                                                                                                                                                              127 ↵
+go version go1.22.2 darwin/arm64
+
+tsc -v         
+Version 5.5.4
+
+python3 -V                
+Python 3.12.5
+```
+
+![version_language.png](images/version_language.png)
 
 ####  Python
 - Python的话 公司内部数据平台使用Django开发,当时2022校招进来 python连数据结构都写不明白 pip是什么 安装依赖也不会 都是当时带我的mentor导师手把手教我 现在回想起来当时是真的菜啊,
