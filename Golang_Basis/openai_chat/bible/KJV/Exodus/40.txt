@@ -1,0 +1,75 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> And the LORD spake unto Moses, saying,
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> And thou shalt put therein the ark of the testimony, and cover the ark with the vail.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> And thou shalt bring in the table, and set in order the things that are to be set in order upon it; and thou shalt bring in the candlestick, and light the lamps thereof.
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> And thou shalt set the altar of gold for the incense before the ark of the testimony, and put the hanging of the door to the tabernacle.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> And thou shalt set the altar of the burnt offering before the door of the tabernacle of the tent of the congregation.
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> And thou shalt set the laver between the tent of the congregation and the altar, and shalt put water therein.
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> And thou shalt set up the court round about, and hang up the hanging at the court gate.
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> And thou shalt take the anointing oil, and anoint the tabernacle, and all that is therein, and shalt hallow it, and all the vessels thereof: and it shall be holy.
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> And thou shalt anoint the altar of the burnt offering, and all his vessels, and sanctify the altar: and it shall be an altar most holy.
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> And thou shalt anoint the laver and his foot, and sanctify it.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> And thou shalt bring Aaron and his sons unto the door of the tabernacle of the congregation, and wash them with water.
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> And thou shalt put upon Aaron the holy garments, and anoint him, and sanctify him; that he may minister unto me in the priest's office.
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> And thou shalt bring his sons, and clothe them with coats:
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest's office: for their anointing shall surely be an everlasting priesthood throughout their generations.
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> Thus did Moses: according to all that the LORD commanded him, so did he.
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> And it came to pass in the first month in the second year, on the first day of the month, that the tabernacle was reared up.
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> And Moses reared up the tabernacle, and fastened his sockets, and set up the boards thereof, and put in the bars thereof, and reared up his pillars.
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> And he spread abroad the tent over the tabernacle, and put the covering of the tent above upon it; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> And he took and put the testimony into the ark, and set the staves on the ark, and put the mercy seat above upon the ark:
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> And he brought the ark into the tabernacle, and set up the vail of the covering, and covered the ark of the testimony; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> And he put the table in the tent of the congregation, upon the side of the tabernacle northward, without the vail.
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> And he set the bread in order upon it before the LORD; as the LORD had commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> And he put the candlestick in the tent of the congregation, over against the table, on the side of the tabernacle southward.
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> And he lighted the lamps before the LORD; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> And he put the golden altar in the tent of the congregation before the vail:
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> And he burnt sweet incense thereon; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> And he set up the hanging at the door of the tabernacle.
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> And he put the altar of burnt offering by the door of the tabernacle of the tent of the congregation, and offered upon it the burnt offering and the meat offering; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> And he set the laver between the tent of the congregation and the altar, and put water there, to wash withal.
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> And Moses and Aaron and his sons washed their hands and their feet thereat:
+
+<bmstyle color=#ADADAD font-size=14>32</bmstyle> When they went into the tent of the congregation, and when they came near unto the altar, they washed; as the LORD commanded Moses.
+
+<bmstyle color=#ADADAD font-size=14>33</bmstyle> And he reared up the court round about the tabernacle and the altar, and set up the hanging of the court gate. So Moses finished the work.
+
+<bmstyle color=#ADADAD font-size=14>34</bmstyle> Then a cloud covered the tent of the congregation, and the glory of the LORD filled the tabernacle.
+
+<bmstyle color=#ADADAD font-size=14>35</bmstyle> And Moses was not able to enter into the tent of the congregation, because the cloud abode thereon, and the glory of the LORD filled the tabernacle.
+
+<bmstyle color=#ADADAD font-size=14>36</bmstyle> And when the cloud was taken up from over the tabernacle, the children of Israel went onward in all their journeys:
+
+<bmstyle color=#ADADAD font-size=14>37</bmstyle> But if the cloud were not taken up, then they journeyed not till the day that it was taken up.
+
+<bmstyle color=#ADADAD font-size=14>38</bmstyle> For the cloud of the LORD was upon the tabernacle by day, and fire was on it by night, in the sight of all the house of Israel, throughout all their journeys.

@@ -1,0 +1,63 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> And Adam lived an hundred and thirty years, and begat a son in his own likeness, after his image; and called his name Seth:
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> And the days of Adam after he had begotten Seth were eight hundred years: and he begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> And all the days that Adam lived were nine hundred and thirty years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> And Seth lived an hundred and five years, and begat Enos:
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> And Seth lived after he begat Enos eight hundred and seven years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> And all the days of Seth were nine hundred and twelve years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> And Enos lived ninety years, and begat Cainan:
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> And Enos lived after he begat Cainan eight hundred and fifteen years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> And all the days of Enos were nine hundred and five years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> And Cainan lived seventy years, and begat Mahalaleel:
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> And Cainan lived after he begat Mahalaleel eight hundred and forty years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> And all the days of Cainan were nine hundred and ten years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> And Mahalaleel lived sixty and five years, and begat Jared:
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> And Mahalaleel lived after he begat Jared eight hundred and thirty years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> And all the days of Mahalaleel were eight hundred ninety and five years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> And Jared lived an hundred sixty and two years, and he begat Enoch:
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> And Jared lived after he begat Enoch eight hundred years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> And all the days of Jared were nine hundred sixty and two years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> And Enoch lived sixty and five years, and begat Methuselah:
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> And Enoch walked with God after he begat Methuselah three hundred years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> And all the days of Enoch were three hundred sixty and five years:
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> And Enoch walked with God: and he was not; for God took him.
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> And Methuselah lived an hundred eighty and seven years, and begat Lamech:
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> And Methuselah lived after he begat Lamech seven hundred eighty and two years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> And all the days of Methuselah were nine hundred sixty and nine years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> And Lamech lived an hundred eighty and two years, and begat a son:
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> And he called his name Noah, saying, This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> And Lamech lived after he begat Noah five hundred ninety and five years, and begat sons and daughters:
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> And all the days of Lamech were seven hundred seventy and seven years: and he died.
+
+<bmstyle color=#ADADAD font-size=14>32</bmstyle> And Noah was five hundred years old: and Noah begat Shem, Ham, and Japheth.

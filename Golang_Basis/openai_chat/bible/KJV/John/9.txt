@@ -1,0 +1,81 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> And as Jesus passed by, he saw a man which was blind from his birth.
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> And his disciples asked him, saying, Master, who did sin, this man, or his parents, that he was born blind?
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> Jesus answered, Neither hath this man sinned, nor his parents: but that the works of God should be made manifest in him.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> I must work the works of him that sent me, while it is day: the night cometh, when no man can work.
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> As long as I am in the world, I am the light of the world.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> When he had thus spoken, he spat on the ground, and made clay of the spittle, and he anointed the eyes of the blind man with the clay,
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> And said unto him, Go, wash in the pool of Siloam, (which is by interpretation, Sent.) He went his way therefore, and washed, and came seeing.
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> The neighbours therefore, and they which before had seen him that he was blind, said, Is not this he that sat and begged?
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> Some said, This is he: others said, He is like him: but he said, I am he.
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> Therefore said they unto him, How were thine eyes opened?
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> He answered and said, A man that is called Jesus made clay, and anointed mine eyes, and said unto me, Go to the pool of Siloam, and wash: and I went and washed, and I received sight.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> Then said they unto him, Where is he? He said, I know not.
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> They brought to the Pharisees him that aforetime was blind.
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> And it was the sabbath day when Jesus made the clay, and opened his eyes.
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> Then again the Pharisees also asked him how he had received his sight. He said unto them, He put clay upon mine eyes, and I washed, and do see.
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> Therefore said some of the Pharisees, This man is not of God, because he keepeth not the sabbath day. Others said, How can a man that is a sinner do such miracles? And there was a division among them.
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> They say unto the blind man again, What sayest thou of him, that he hath opened thine eyes? He said, He is a prophet.
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> But the Jews did not believe concerning him, that he had been blind, and received his sight, until they called the parents of him that had received his sight.
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> And they asked them, saying, Is this your son, who ye say was born blind? how then doth he now see?
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> His parents answered them and said, We know that this is our son, and that he was born blind:
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> But by what means he now seeth, we know not; or who hath opened his eyes, we know not: he is of age; ask him: he shall speak for himself.
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> These words spake his parents, because they feared the Jews: for the Jews had agreed already, that if any man did confess that he was Christ, he should be put out of the synagogue.
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> Therefore said his parents, He is of age; ask him.
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> Then again called they the man that was blind, and said unto him, Give God the praise: we know that this man is a sinner.
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> Then said they to him again, What did he to thee? how opened he thine eyes?
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> He answered them, I have told you already, and ye did not hear: wherefore would ye hear it again? will ye also be his disciples?
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> Then they reviled him, and said, Thou art his disciple; but we are Moses' disciples.
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> We know that God spake unto Moses: as for this fellow, we know not from whence he is.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> The man answered and said unto them, Why herein is a marvellous thing, that ye know not from whence he is, and yet he hath opened mine eyes.
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> Now we know that God heareth not sinners: but if any man be a worshipper of God, and doeth his will, him he heareth.
+
+<bmstyle color=#ADADAD font-size=14>32</bmstyle> Since the world began was it not heard that any man opened the eyes of one that was born blind.
+
+<bmstyle color=#ADADAD font-size=14>33</bmstyle> If this man were not of God, he could do nothing.
+
+<bmstyle color=#ADADAD font-size=14>34</bmstyle> They answered and said unto him, Thou wast altogether born in sins, and dost thou teach us? And they cast him out.
+
+<bmstyle color=#ADADAD font-size=14>35</bmstyle> Jesus heard that they had cast him out; and when he had found him, he said unto him, Dost thou believe on the Son of God?
+
+<bmstyle color=#ADADAD font-size=14>36</bmstyle> He answered and said, Who is he, Lord, that I might believe on him?
+
+<bmstyle color=#ADADAD font-size=14>37</bmstyle> And Jesus said unto him, Thou hast both seen him, and it is he that talketh with thee.
+
+<bmstyle color=#ADADAD font-size=14>38</bmstyle> And he said, Lord, I believe. And he worshipped him.
+
+<bmstyle color=#ADADAD font-size=14>39</bmstyle> And Jesus said, For judgment I am come into this world, that they which see not might see; and that they which see might be made blind.
+
+<bmstyle color=#ADADAD font-size=14>40</bmstyle> And some of the Pharisees which were with him heard these words, and said unto him, Are we blind also?
+
+<bmstyle color=#ADADAD font-size=14>41</bmstyle> Jesus said unto them, If ye were blind, ye should have no sin: but now ye say, We see; therefore your sin remaineth.

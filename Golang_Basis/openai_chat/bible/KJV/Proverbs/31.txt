@@ -1,0 +1,61 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> The words of king Lemuel, the prophecy that his mother taught him.
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> What, my son? and what, the son of my womb? and what, the son of my vows?
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> Give not thy strength unto women, nor thy ways to that which destroyeth kings.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> It is not for kings, O Lemuel, it is not for kings to drink wine; nor for princes strong drink:
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> Lest they drink, and forget the law, and pervert the judgment of any of the afflicted.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> Give strong drink unto him that is ready to perish, and wine unto those that be of heavy hearts.
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> Let him drink, and forget his poverty, and remember his misery no more.
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> Open thy mouth for the dumb in the cause of all such as are appointed to destruction.
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> Open thy mouth, judge righteously, and plead the cause of the poor and needy.
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> Who can find a virtuous woman? for her price is far above rubies.
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> The heart of her husband doth safely trust in her, so that he shall have no need of spoil.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> She will do him good and not evil all the days of her life.
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> She seeketh wool, and flax, and worketh willingly with her hands.
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> She is like the merchants' ships; she bringeth her food from afar.
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> She riseth also while it is yet night, and giveth meat to her household, and a portion to her maidens.
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> She considereth a field, and buyeth it: with the fruit of her hands she planteth a vineyard.
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> She girdeth her loins with strength, and strengtheneth her arms.
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> She perceiveth that her merchandise is good: her candle goeth not out by night.
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> She layeth her hands to the spindle, and her hands hold the distaff.
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> She stretcheth out her hand to the poor; yea, she reacheth forth her hands to the needy.
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> She is not afraid of the snow for her household: for all her household are clothed with scarlet.
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> She maketh herself coverings of tapestry; her clothing is silk and purple.
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> Her husband is known in the gates, when he sitteth among the elders of the land.
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> She maketh fine linen, and selleth it; and delivereth girdles unto the merchant.
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> Strength and honour are her clothing; and she shall rejoice in time to come.
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> She openeth her mouth with wisdom; and in her tongue is the law of kindness.
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> She looketh well to the ways of her household, and eateth not the bread of idleness.
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> Her children arise up, and call her blessed; her husband also, and he praiseth her.
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> Many daughters have done virtuously, but thou excellest them all.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised.
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> Give her of the fruit of her hands; and let her own works praise her in the gates.

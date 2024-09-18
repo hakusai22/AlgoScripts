@@ -1,0 +1,79 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> Now faith is the substance of things hoped for, the evidence of things not seen.
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> For by it the elders obtained a good report.
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> Through faith we understand that the worlds were framed by the word of God, so that things which are seen were not made of things which do appear.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> By faith Abel offered unto God a more excellent sacrifice than Cain, by which he obtained witness that he was righteous, God testifying of his gifts: and by it he being dead yet speaketh.
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> By faith Enoch was translated that he should not see death; and was not found, because God had translated him: for before his translation he had this testimony, that he pleased God.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> But without faith it is impossible to please him: for he that cometh to God must believe that he is, and that he is a rewarder of them that diligently seek him.
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house; by the which he condemned the world, and became heir of the righteousness which is by faith.
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went.
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> By faith he sojourned in the land of promise, as in a strange country, dwelling in tabernacles with Isaac and Jacob, the heirs with him of the same promise:
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> For he looked for a city which hath foundations, whose builder and maker is God.
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> Therefore sprang there even of one, and him as good as dead, so many as the stars of the sky in multitude, and as the sand which is by the sea shore innumerable.
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth.
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> For they that say such things declare plainly that they seek a country.
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> And truly, if they had been mindful of that country from whence they came out, they might have had opportunity to have returned.
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> But now they desire a better country, that is, an heavenly: wherefore God is not ashamed to be called their God: for he hath prepared for them a city.
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> By faith Abraham, when he was tried, offered up Isaac: and he that had received the promises offered up his only begotten son,
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> Of whom it was said, That in Isaac shall thy seed be called:
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> Accounting that God was able to raise him up, even from the dead; from whence also he received him in a figure.
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> By faith Isaac blessed Jacob and Esau concerning things to come.
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, leaning upon the top of his staff.
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> By faith Joseph, when he died, made mention of the departing of the children of Israel; and gave commandment concerning his bones.
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> By faith Moses, when he was born, was hid three months of his parents, because they saw he was a proper child; and they were not afraid of the king's commandment.
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> By faith Moses, when he was come to years, refused to be called the son of Pharaoh's daughter;
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season;
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible.
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> Through faith he kept the passover, and the sprinkling of blood, lest he that destroyed the firstborn should touch them.
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> By faith they passed through the Red sea as by dry land: which the Egyptians assaying to do were drowned.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> By faith the walls of Jericho fell down, after they were compassed about seven days.
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> By faith the harlot Rahab perished not with them that believed not, when she had received the spies with peace.
+
+<bmstyle color=#ADADAD font-size=14>32</bmstyle> And what shall I more say? for the time would fail me to tell of Gedeon, and of Barak, and of Samson, and of Jephthae; of David also, and Samuel, and of the prophets:
+
+<bmstyle color=#ADADAD font-size=14>33</bmstyle> Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions,
+
+<bmstyle color=#ADADAD font-size=14>34</bmstyle> Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens.
+
+<bmstyle color=#ADADAD font-size=14>35</bmstyle> Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection:
+
+<bmstyle color=#ADADAD font-size=14>36</bmstyle> And others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment:
+
+<bmstyle color=#ADADAD font-size=14>37</bmstyle> They were stoned, they were sawn asunder, were tempted, were slain with the sword: they wandered about in sheepskins and goatskins; being destitute, afflicted, tormented;
+
+<bmstyle color=#ADADAD font-size=14>38</bmstyle> (Of whom the world was not worthy:) they wandered in deserts, and in mountains, and in dens and caves of the earth.
+
+<bmstyle color=#ADADAD font-size=14>39</bmstyle> And these all, having obtained a good report through faith, received not the promise:
+
+<bmstyle color=#ADADAD font-size=14>40</bmstyle> God having provided some better thing for us, that they without us should not be made perfect.

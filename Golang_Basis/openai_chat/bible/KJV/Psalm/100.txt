@@ -1,0 +1,9 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> Make a joyful noise unto the LORD, all ye lands.
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> Serve the LORD with gladness: come before his presence with singing.
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> Know ye that the LORD he is God: it is he that hath made us, and not we ourselves; we are his people, and the sheep of his pasture.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> Enter into his gates with thanksgiving, and into his courts with praise: be thankful unto him, and bless his name.
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> For the LORD is good; his mercy is everlasting; and his truth endureth to all generations.

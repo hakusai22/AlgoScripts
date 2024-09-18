@@ -1,0 +1,107 @@
+<bmstyle color=#ADADAD font-size=14>1</bmstyle> And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the second month, in the second year after they were come out of the land of Egypt, saying,
+
+<bmstyle color=#ADADAD font-size=14>2</bmstyle> Take ye the sum of all the congregation of the children of Israel, after their families, by the house of their fathers, with the number of their names, every male by their polls;
+
+<bmstyle color=#ADADAD font-size=14>3</bmstyle> From twenty years old and upward, all that are able to go forth to war in Israel: thou and Aaron shall number them by their armies.
+
+<bmstyle color=#ADADAD font-size=14>4</bmstyle> And with you there shall be a man of every tribe; every one head of the house of his fathers.
+
+<bmstyle color=#ADADAD font-size=14>5</bmstyle> And these are the names of the men that shall stand with you: of the tribe of Reuben; Elizur the son of Shedeur.
+
+<bmstyle color=#ADADAD font-size=14>6</bmstyle> Of Simeon; Shelumiel the son of Zurishaddai.
+
+<bmstyle color=#ADADAD font-size=14>7</bmstyle> Of Judah; Nahshon the son of Amminadab.
+
+<bmstyle color=#ADADAD font-size=14>8</bmstyle> Of Issachar; Nethaneel the son of Zuar.
+
+<bmstyle color=#ADADAD font-size=14>9</bmstyle> Of Zebulun; Eliab the son of Helon.
+
+<bmstyle color=#ADADAD font-size=14>10</bmstyle> Of the children of Joseph: of Ephraim; Elishama the son of Ammihud: of Manasseh; Gamaliel the son of Pedahzur.
+
+<bmstyle color=#ADADAD font-size=14>11</bmstyle> Of Benjamin; Abidan the son of Gideoni.
+
+<bmstyle color=#ADADAD font-size=14>12</bmstyle> Of Dan; Ahiezer the son of Ammishaddai.
+
+<bmstyle color=#ADADAD font-size=14>13</bmstyle> Of Asher; Pagiel the son of Ocran.
+
+<bmstyle color=#ADADAD font-size=14>14</bmstyle> Of Gad; Eliasaph the son of Deuel.
+
+<bmstyle color=#ADADAD font-size=14>15</bmstyle> Of Naphtali; Ahira the son of Enan.
+
+<bmstyle color=#ADADAD font-size=14>16</bmstyle> These were the renowned of the congregation, princes of the tribes of their fathers, heads of thousands in Israel.
+
+<bmstyle color=#ADADAD font-size=14>17</bmstyle> And Moses and Aaron took these men which are expressed by their names:
+
+<bmstyle color=#ADADAD font-size=14>18</bmstyle> And they assembled all the congregation together on the first day of the second month, and they declared their pedigrees after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, by their polls.
+
+<bmstyle color=#ADADAD font-size=14>19</bmstyle> As the LORD commanded Moses, so he numbered them in the wilderness of Sinai.
+
+<bmstyle color=#ADADAD font-size=14>20</bmstyle> And the children of Reuben, Israel's eldest son, by their generations, after their families, by the house of their fathers, according to the number of the names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>21</bmstyle> Those that were numbered of them, even of the tribe of Reuben, were forty and six thousand and five hundred.
+
+<bmstyle color=#ADADAD font-size=14>22</bmstyle> Of the children of Simeon, by their generations, after their families, by the house of their fathers, those that were numbered of them, according to the number of the names, by their polls, every male from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>23</bmstyle> Those that were numbered of them, even of the tribe of Simeon, were fifty and nine thousand and three hundred.
+
+<bmstyle color=#ADADAD font-size=14>24</bmstyle> Of the children of Gad, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>25</bmstyle> Those that were numbered of them, even of the tribe of Gad, were forty and five thousand six hundred and fifty.
+
+<bmstyle color=#ADADAD font-size=14>26</bmstyle> Of the children of Judah, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>27</bmstyle> Those that were numbered of them, even of the tribe of Judah, were threescore and fourteen thousand and six hundred.
+
+<bmstyle color=#ADADAD font-size=14>28</bmstyle> Of the children of Issachar, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>29</bmstyle> Those that were numbered of them, even of the tribe of Issachar, were fifty and four thousand and four hundred.
+
+<bmstyle color=#ADADAD font-size=14>30</bmstyle> Of the children of Zebulun, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>31</bmstyle> Those that were numbered of them, even of the tribe of Zebulun, were fifty and seven thousand and four hundred.
+
+<bmstyle color=#ADADAD font-size=14>32</bmstyle> Of the children of Joseph, namely, of the children of Ephraim, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>33</bmstyle> Those that were numbered of them, even of the tribe of Ephraim, were forty thousand and five hundred.
+
+<bmstyle color=#ADADAD font-size=14>34</bmstyle> Of the children of Manasseh, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>35</bmstyle> Those that were numbered of them, even of the tribe of Manasseh, were thirty and two thousand and two hundred.
+
+<bmstyle color=#ADADAD font-size=14>36</bmstyle> Of the children of Benjamin, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>37</bmstyle> Those that were numbered of them, even of the tribe of Benjamin, were thirty and five thousand and four hundred.
+
+<bmstyle color=#ADADAD font-size=14>38</bmstyle> Of the children of Dan, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>39</bmstyle> Those that were numbered of them, even of the tribe of Dan, were threescore and two thousand and seven hundred.
+
+<bmstyle color=#ADADAD font-size=14>40</bmstyle> Of the children of Asher, by their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>41</bmstyle> Those that were numbered of them, even of the tribe of Asher, were forty and one thousand and five hundred.
+
+<bmstyle color=#ADADAD font-size=14>42</bmstyle> Of the children of Naphtali, throughout their generations, after their families, by the house of their fathers, according to the number of the names, from twenty years old and upward, all that were able to go forth to war;
+
+<bmstyle color=#ADADAD font-size=14>43</bmstyle> Those that were numbered of them, even of the tribe of Naphtali, were fifty and three thousand and four hundred.
+
+<bmstyle color=#ADADAD font-size=14>44</bmstyle> These are those that were numbered, which Moses and Aaron numbered, and the princes of Israel, being twelve men: each one was for the house of his fathers.
+
+<bmstyle color=#ADADAD font-size=14>45</bmstyle> So were all those that were numbered of the children of Israel, by the house of their fathers, from twenty years old and upward, all that were able to go forth to war in Israel;
+
+<bmstyle color=#ADADAD font-size=14>46</bmstyle> Even all they that were numbered were six hundred thousand and three thousand and five hundred and fifty.
+
+<bmstyle color=#ADADAD font-size=14>47</bmstyle> But the Levites after the tribe of their fathers were not numbered among them.
+
+<bmstyle color=#ADADAD font-size=14>48</bmstyle> For the LORD had spoken unto Moses, saying,
+
+<bmstyle color=#ADADAD font-size=14>49</bmstyle> Only thou shalt not number the tribe of Levi, neither take the sum of them among the children of Israel:
+
+<bmstyle color=#ADADAD font-size=14>50</bmstyle> But thou shalt appoint the Levites over the tabernacle of testimony, and over all the vessels thereof, and over all things that belong to it: they shall bear the tabernacle, and all the vessels thereof; and they shall minister unto it, and shall encamp round about the tabernacle.
+
+<bmstyle color=#ADADAD font-size=14>51</bmstyle> And when the tabernacle setteth forward, the Levites shall take it down: and when the tabernacle is to be pitched, the Levites shall set it up: and the stranger that cometh nigh shall be put to death.
+
+<bmstyle color=#ADADAD font-size=14>52</bmstyle> And the children of Israel shall pitch their tents, every man by his own camp, and every man by his own standard, throughout their hosts.
+
+<bmstyle color=#ADADAD font-size=14>53</bmstyle> But the Levites shall pitch round about the tabernacle of testimony, that there be no wrath upon the congregation of the children of Israel: and the Levites shall keep the charge of the tabernacle of testimony.
+
+<bmstyle color=#ADADAD font-size=14>54</bmstyle> And the children of Israel did according to all that the LORD commanded Moses, so did they.
