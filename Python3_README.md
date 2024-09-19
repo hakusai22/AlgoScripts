@@ -1,4 +1,7 @@
-## Python3 刷题总结
+## Python3 学习记录
+
+- https://www.yuque.com/hakusai/gkr7pp/vdeghah2489of40m
+![python_study.png](images/python_study.png)
 
 - 常用内置数据类型：list, tuple, dict, set, frozenset
 - collections 模块：Counter(计数器), deque(双端队列), OrderedDict(有序字典)，defaultdict(默认值字典)
@@ -10,7 +13,8 @@
 
 ### python 递归暴栈(栈溢出)
 
-python 递归函数默认递归深度比较小，你可以通过 sys.getrecursionlimit() 函数打印出来。 我在 mac 机器上测试的时候，以下结果 python2 输出
+python 递归函数默认递归深度比较小，你可以通过 sys.getrecursionlimit() 函数打印出来。 我在 mac 机器上测试的时候，以下结果
+python2 输出
 1000。这就导致一些递归函数测试用例稍微多一些就会报错。 (一个用例超过上千个数据就会报错了)
 
 ```python
@@ -19,7 +23,8 @@ import sys
 print(sys.getrecursionlimit())  # 我的 mac 机器上输出 1000
 ```
 
-可以把以下代码设置最大栈深度，放到文件开头，在牛客上提交代码的时候可以避免一些递归代码报错。 (leetcode 似乎给设置了，类似的题目发现力扣上提交不会栈溢出但是在牛客就会)
+可以把以下代码设置最大栈深度，放到文件开头，在牛客上提交代码的时候可以避免一些递归代码报错。 (leetcode
+似乎给设置了，类似的题目发现力扣上提交不会栈溢出但是在牛客就会)
 
 ```python
 import sys
@@ -88,8 +93,8 @@ i = 0
 od[i] = od.get(i, 0) + 1  # 间接实现了 defaultdict(int) ，同时保持了插入字典的 key 顺序
 ```
 
-
 > Python3 常用模版
+
 ```python
 from bisect import bisect_left, bisect_right, insort_left, insort_right, insort, bisect
 from math import ceil, floor, pow, gcd, sqrt, log10, fabs, fmod, factorial, inf, pi, e
@@ -164,7 +169,6 @@ def Lucas(n, m, p):
     return Comb(n % p, m % p, p) * Lucas(n // p, m // p, p) % p
 
 ```
-
 
 ```python
 # 编写链表题目经常用到的一些通用函数和调试函数，定义等，方便代码调试
