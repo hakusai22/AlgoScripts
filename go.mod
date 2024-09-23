@@ -20,7 +20,7 @@ require (
 	github.com/gorilla/websocket v1.5.3
 	github.com/mkevac/debugcharts v0.0.0-20191222103121-ae1c48aa8615
 	github.com/panjf2000/ants/v2 v2.10.0
-	github.com/sashabaranov/go-openai v1.26.3
+	github.com/sashabaranov/go-openai v1.30.3
 	github.com/spf13/viper v1.19.0
 	github.com/tealeg/xlsx v1.0.5
 )
